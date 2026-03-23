@@ -1,6 +1,7 @@
 import type { AttemptResult, GameStatus, Movie, SavedGameState } from '@/types';
 
 export const MAX_ATTEMPTS = 3;
+export const MAX_HINTS = 3;
 
 export function seededShuffle<T>(arr: T[], seed: string): T[] {
   const result = [...arr];
@@ -30,7 +31,8 @@ export function generateShareText(
   puzzleNumber: number,
   theme: string,
   attempts: AttemptResult[],
-  status: GameStatus
+  status: GameStatus,
+  hintsUsed: number
 ): string {
   const header = `🎬 FilmSort #${puzzleNumber}`;
   const themeLine = `"${theme}"`;
@@ -38,8 +40,11 @@ export function generateShareText(
     (a, i) =>
       `${i + 1}/${MAX_ATTEMPTS}  ${a.correct.map(c => (c ? '🟩' : '🟥')).join('')}${a.allCorrect ? ' ✓' : ''}`
   );
+  const hintLine = hintsUsed === 0
+    ? '👁 No hints used'
+    : `👁 ${hintsUsed}/${MAX_HINTS} hint${hintsUsed !== 1 ? 's' : ''} used`;
   const footer = status === 'lost' ? 'Better luck tomorrow! 🎬' : '';
-  return [header, themeLine, '', ...rows, ...(footer ? ['', footer] : []), '', 'filmsort.app'].join('\n');
+  return [header, themeLine, '', ...rows, '', hintLine, ...(footer ? ['', footer] : []), '', 'filmsort.app'].join('\n');
 }
 
 const storageKey = (puzzleId: number) => `filmsort_puzzle_${puzzleId}`;

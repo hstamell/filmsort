@@ -20,6 +20,7 @@ import SortableMovieCard from './SortableMovieCard';
 import ShareModal from './ShareModal';
 import {
   MAX_ATTEMPTS,
+  MAX_HINTS,
   seededShuffle,
   checkAttempt,
   generateShareText,
@@ -43,6 +44,8 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
   const [showYears, setShowYears] = useState(false);
   const [showShare, setShowShare] = useState(false);
   const [hydrated, setHydrated] = useState(false);
+  const [hintsUsed, setHintsUsed] = useState(0);
+  const [revealedPosters, setRevealedPosters] = useState<Set<number>>(new Set());
 
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 5 } }),
@@ -55,13 +58,15 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
     if (saved && saved.date === puzzle.date) {
       setAttempts(saved.attempts);
       setGameStatus(saved.status);
+      setHintsUsed(saved.hintsUsed ?? 0);
+      setRevealedPosters(new Set(saved.revealedPosters ?? []));
       if (saved.attempts.length > 0) {
         setLastFeedback(saved.attempts[saved.attempts.length - 1].correct);
       }
       if (saved.status !== 'playing') {
         setShowYears(true);
         if (saved.status === 'lost') {
-          setMovies(puzzle.movies); // reveal correct order
+          setMovies(puzzle.movies);
         } else if (saved.finalOrder) {
           setMovies(saved.finalOrder.map(i => puzzle.movies[i]));
         }
@@ -69,6 +74,22 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
     }
     setHydrated(true);
   }, [puzzle]);
+
+  function handleReveal(tmdbId: number) {
+    if (hintsUsed >= MAX_HINTS || gameStatus !== 'playing') return;
+    const newRevealed = new Set(revealedPosters).add(tmdbId);
+    const newHintsUsed = hintsUsed + 1;
+    setRevealedPosters(newRevealed);
+    setHintsUsed(newHintsUsed);
+    saveGameState({
+      puzzleId: puzzle.id,
+      date: puzzle.date,
+      attempts,
+      status: gameStatus,
+      hintsUsed: newHintsUsed,
+      revealedPosters: Array.from(newRevealed),
+    });
+  }
 
   function handleDragEnd(event: DragEndEvent) {
     const { active, over } = event;
@@ -109,6 +130,8 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
       date: puzzle.date,
       attempts: newAttempts,
       status: newStatus,
+      hintsUsed,
+      revealedPosters: Array.from(revealedPosters),
       finalOrder:
         newStatus !== 'playing'
           ? movies.map(m => puzzle.movies.findIndex(c => c.tmdbId === m.tmdbId))
@@ -120,7 +143,7 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
     }
   }
 
-  const shareText = generateShareText(puzzleNumber, puzzle.theme, attempts, gameStatus);
+  const shareText = generateShareText(puzzleNumber, puzzle.theme, attempts, gameStatus, hintsUsed);
 
   if (!hydrated) {
     return (
@@ -168,6 +191,27 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
         </div>
       )}
 
+      {/* Hints counter */}
+      {gameStatus === 'playing' && (
+        <div className="flex items-center justify-center gap-2 mb-4">
+          <span className="text-xs uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>Hints</span>
+          <div className="flex gap-1.5">
+            {Array.from({ length: MAX_HINTS }).map((_, i) => (
+              <span
+                key={i}
+                className="text-base leading-none transition-opacity"
+                style={{ opacity: i < (MAX_HINTS - hintsUsed) ? 0.85 : 0.15 }}
+              >
+                👁
+              </span>
+            ))}
+          </div>
+          <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
+            {MAX_HINTS - hintsUsed} left
+          </span>
+        </div>
+      )}
+
       {/* Direction labels */}
       <div className="flex justify-between text-xs px-1 mb-2 uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>
         <span>↑ Earliest</span>
@@ -185,6 +229,9 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
                 feedback={lastFeedback ? (lastFeedback[i] ? 'correct' : 'incorrect') : null}
                 showYear={showYears}
                 disabled={gameStatus !== 'playing'}
+                posterRevealed={showYears || revealedPosters.has(movie.tmdbId)}
+                canReveal={gameStatus === 'playing' && !revealedPosters.has(movie.tmdbId) && hintsUsed < MAX_HINTS}
+                onReveal={() => handleReveal(movie.tmdbId)}
               />
             ))}
           </div>

@@ -27,4 +27,6 @@ export interface SavedGameState {
   attempts: AttemptResult[];
   status: GameStatus;
   finalOrder?: number[]; // indices into puzzle.movies when game ended
+  hintsUsed: number;
+  revealedPosters: number[]; // tmdbIds of revealed posters
 }

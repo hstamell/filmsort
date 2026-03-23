@@ -8,23 +8,31 @@ interface MovieCardProps {
   isDragging?: boolean;
   feedback?: 'correct' | 'incorrect' | null;
   showYear?: boolean;
+  posterRevealed?: boolean;
+  canReveal?: boolean;
+  onReveal?: () => void;
   handleProps?: React.HTMLAttributes<HTMLDivElement>;
 }
 
-export default function MovieCard({ movie, isDragging, feedback, showYear, handleProps }: MovieCardProps) {
+export default function MovieCard({
+  movie,
+  isDragging,
+  feedback,
+  showYear,
+  posterRevealed,
+  canReveal,
+  onReveal,
+  handleProps,
+}: MovieCardProps) {
   const borderColor =
-    feedback === 'correct'
-      ? '#22c55e'
-      : feedback === 'incorrect'
-        ? '#ef4444'
-        : 'var(--border)';
+    feedback === 'correct' ? '#22c55e'
+    : feedback === 'incorrect' ? '#ef4444'
+    : 'var(--border)';
 
   const bgColor =
-    feedback === 'correct'
-      ? 'rgba(34,197,94,0.07)'
-      : feedback === 'incorrect'
-        ? 'rgba(239,68,68,0.07)'
-        : 'var(--card)';
+    feedback === 'correct' ? 'rgba(34,197,94,0.07)'
+    : feedback === 'incorrect' ? 'rgba(239,68,68,0.07)'
+    : 'var(--card)';
 
   return (
     <div
@@ -45,21 +53,14 @@ export default function MovieCard({ movie, isDragging, feedback, showYear, handl
         aria-label="drag handle"
       >
         <svg width="10" height="18" viewBox="0 0 10 18" fill="currentColor">
-          <circle cx="3" cy="3" r="1.5" />
-          <circle cx="3" cy="9" r="1.5" />
-          <circle cx="3" cy="15" r="1.5" />
-          <circle cx="8" cy="3" r="1.5" />
-          <circle cx="8" cy="9" r="1.5" />
-          <circle cx="8" cy="15" r="1.5" />
+          <circle cx="3" cy="3" r="1.5" /><circle cx="3" cy="9" r="1.5" /><circle cx="3" cy="15" r="1.5" />
+          <circle cx="8" cy="3" r="1.5" /><circle cx="8" cy="9" r="1.5" /><circle cx="8" cy="15" r="1.5" />
         </svg>
       </div>
 
-      {/* Poster */}
-      <div
-        className="w-11 h-16 flex-shrink-0 rounded-lg overflow-hidden"
-        style={{ background: 'var(--surface)', border: '1px solid var(--border)' }}
-      >
-        {movie.posterUrl ? (
+      {/* Poster / hint button */}
+      <div className="w-11 h-16 flex-shrink-0 rounded-lg overflow-hidden flex-shrink-0">
+        {posterRevealed && movie.posterUrl ? (
           <Image
             src={movie.posterUrl}
             alt={`${movie.title} poster`}
@@ -68,10 +69,31 @@ export default function MovieCard({ movie, isDragging, feedback, showYear, handl
             className="object-cover w-full h-full"
             unoptimized
           />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-xl" style={{ color: 'var(--text-muted)' }}>
+        ) : posterRevealed ? (
+          // Revealed but no poster available
+          <div
+            className="w-full h-full flex items-center justify-center text-xl rounded-lg"
+            style={{ background: 'var(--surface)', border: '1px solid var(--border)', color: 'var(--text-muted)' }}
+          >
             🎬
           </div>
+        ) : (
+          // Hidden — show hint button if hints remain, otherwise locked
+          <button
+            onClick={canReveal ? onReveal : undefined}
+            className="w-full h-full rounded-lg flex flex-col items-center justify-center gap-0.5 transition-all"
+            style={{
+              background: canReveal ? 'var(--surface)' : 'rgba(255,255,255,0.03)',
+              border: `1px solid ${canReveal ? 'var(--border-light)' : 'var(--border)'}`,
+              cursor: canReveal ? 'pointer' : 'default',
+            }}
+            title={canReveal ? 'Reveal poster (uses 1 hint)' : 'No hints remaining'}
+          >
+            <span style={{ fontSize: 14, opacity: canReveal ? 0.7 : 0.25 }}>👁</span>
+            {canReveal && (
+              <span style={{ fontSize: 8, color: 'var(--text-muted)', letterSpacing: '0.05em' }}>HINT</span>
+            )}
+          </button>
         )}
       </div>
 
@@ -84,13 +106,9 @@ export default function MovieCard({ movie, isDragging, feedback, showYear, handl
           {movie.title}
         </p>
         {showYear ? (
-          <p className="text-sm mt-0.5 font-medium" style={{ color: 'var(--gold-dim)' }}>
-            {movie.year}
-          </p>
+          <p className="text-sm mt-0.5 font-medium" style={{ color: 'var(--gold-dim)' }}>{movie.year}</p>
         ) : (
-          <p className="text-sm mt-0.5" style={{ color: 'var(--text-muted)' }}>
-            ????
-          </p>
+          <p className="text-sm mt-0.5" style={{ color: 'var(--text-muted)' }}>????</p>
         )}
       </div>
 

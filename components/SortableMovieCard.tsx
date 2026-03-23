@@ -10,6 +10,9 @@ interface SortableMovieCardProps {
   feedback?: 'correct' | 'incorrect' | null;
   showYear?: boolean;
   disabled?: boolean;
+  posterRevealed?: boolean;
+  canReveal?: boolean;
+  onReveal?: () => void;
 }
 
 export default function SortableMovieCard({
@@ -17,6 +20,9 @@ export default function SortableMovieCard({
   feedback,
   showYear,
   disabled,
+  posterRevealed,
+  canReveal,
+  onReveal,
 }: SortableMovieCardProps) {
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({
     id: movie.tmdbId,
@@ -37,6 +43,9 @@ export default function SortableMovieCard({
         isDragging={isDragging}
         feedback={feedback}
         showYear={showYear}
+        posterRevealed={posterRevealed}
+        canReveal={canReveal}
+        onReveal={onReveal}
         handleProps={{ ...attributes, ...listeners }}
       />
     </div>
