@@ -17,6 +17,10 @@ export function getPuzzleNumber(date: string): number {
   return idx === -1 ? 1 : idx + 1;
 }
 
+export function getAllPuzzles(): Puzzle[] {
+  return [...puzzles]; // all puzzles, chronological
+}
+
 export function getAllPastPuzzles(): Puzzle[] {
   const today = new Date().toISOString().split('T')[0];
   return [...puzzles].filter(p => p.date <= today).reverse(); // newest first

@@ -1,12 +1,12 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getPuzzleByDate, getPuzzleNumber, getAllPastPuzzles } from '@/lib/puzzles';
+import { getPuzzleByDate, getPuzzleNumber, getAllPuzzles } from '@/lib/puzzles';
 import { getPosterUrl } from '@/lib/tmdb';
 import GameBoard from '@/components/GameBoard';
 import type { Movie } from '@/types';
 
 export function generateStaticParams() {
-  return getAllPastPuzzles().map(p => ({ date: p.date }));
+  return getAllPuzzles().map(p => ({ date: p.date }));
 }
 
 export const revalidate = 3600;
