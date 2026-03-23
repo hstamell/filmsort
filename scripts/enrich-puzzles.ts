@@ -1,19 +1,19 @@
 /**
- * Fetches real poster paths from TMDB for any movies in puzzles.json
+ * Fetches poster URLs from OMDb for any movies in puzzles.json
  * that currently have posterPath: null.
  *
  * Usage:  npm run enrich-puzzles
+ * Sign up for a free OMDb key at: https://www.omdbapi.com/apikey.aspx
  */
 
 import fs from 'fs';
 import path from 'path';
 import { config } from 'dotenv';
+import { fetchOmdbPoster } from '../lib/tmdb.js';
 
 config({ path: path.join(import.meta.dirname ?? __dirname, '../.env.local') });
 
-const TMDB_API_KEY = process.env.TMDB_API_KEY;
-const TMDB_BASE = 'https://api.themoviedb.org/3';
-const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p/w500';
+const OMDB_API_KEY = process.env.OMDB_API_KEY;
 
 interface MovieData {
   tmdbId: number;
@@ -30,19 +30,12 @@ interface PuzzleData {
   movies: MovieData[];
 }
 
-async function fetchPosterPath(tmdbId: number): Promise<string | null> {
-  if (!TMDB_API_KEY) throw new Error('TMDB_API_KEY is not set');
-  try {
-    const res = await fetch(`${TMDB_BASE}/movie/${tmdbId}?api_key=${TMDB_API_KEY}`);
-    if (!res.ok) return null;
-    const data = (await res.json()) as { poster_path?: string | null };
-    return data.poster_path ? `${TMDB_IMAGE_BASE}${data.poster_path}` : null;
-  } catch {
-    return null;
-  }
-}
-
 async function main() {
+  if (!OMDB_API_KEY) {
+    console.error('OMDB_API_KEY is not set in .env.local');
+    process.exit(1);
+  }
+
   const outputPath = path.join(import.meta.dirname ?? __dirname, '../data/puzzles.json');
   const puzzles = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as PuzzleData[];
 
@@ -51,15 +44,15 @@ async function main() {
   for (const puzzle of puzzles) {
     for (const movie of puzzle.movies) {
       if (!movie.posterPath) {
-        const posterPath = await fetchPosterPath(movie.tmdbId);
-        if (posterPath) {
-          movie.posterPath = posterPath;
+        const poster = await fetchOmdbPoster(movie.title, movie.year, OMDB_API_KEY);
+        if (poster) {
+          movie.posterPath = poster;
           console.log(`✓ ${movie.title} (${movie.year})`);
           enriched++;
         } else {
-          console.log(`✗ ${movie.title} (tmdbId: ${movie.tmdbId}) – not found`);
+          console.log(`✗ ${movie.title} (${movie.year}) – not found`);
         }
-        await new Promise(r => setTimeout(r, 150));
+        await new Promise(r => setTimeout(r, 200));
       }
     }
   }

@@ -1,5 +1,6 @@
 /**
- * Generates N new daily puzzles using Claude (themes) + TMDB (movie data).
+ * Generates N new daily puzzles using Claude (themes + movie data).
+ * TMDB is optional — if TMDB_API_KEY is set, posters are fetched too.
  *
  * Usage:
  *   npm run generate-puzzles           # generates 30 puzzles from today
@@ -15,9 +16,7 @@ import { config } from 'dotenv';
 config({ path: path.join(import.meta.dirname ?? __dirname, '../.env.local') });
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-const TMDB_API_KEY = process.env.TMDB_API_KEY;
-const TMDB_BASE = 'https://api.themoviedb.org/3';
-const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p/w500';
+const OMDB_API_KEY = process.env.OMDB_API_KEY ?? null;
 
 interface MovieData {
   tmdbId: number;
@@ -34,45 +33,29 @@ interface PuzzleData {
   movies: MovieData[];
 }
 
-async function searchTMDB(title: string, year: number): Promise<MovieData | null> {
-  if (!TMDB_API_KEY) throw new Error('TMDB_API_KEY is not set');
+async function fetchPoster(title: string, year: number): Promise<string | null> {
+  if (!OMDB_API_KEY) return null;
   try {
-    const url = `${TMDB_BASE}/search/movie?api_key=${TMDB_API_KEY}&query=${encodeURIComponent(title)}&year=${year}`;
+    const url = `https://www.omdbapi.com/?t=${encodeURIComponent(title)}&y=${year}&apikey=${OMDB_API_KEY}`;
     const res = await fetch(url);
     if (!res.ok) return null;
-    const data = (await res.json()) as { results?: Array<{ id: number; title: string; release_date?: string; poster_path?: string | null }> };
-
-    const match =
-      data.results?.find(r => {
-        const y = r.release_date ? new Date(r.release_date).getFullYear() : null;
-        return y !== null && Math.abs(y - year) <= 1;
-      }) ?? data.results?.[0];
-
-    if (!match) return null;
-
-    const releaseDate = match.release_date ?? `${year}-01-01`;
-    return {
-      tmdbId: match.id,
-      title: match.title,
-      releaseDate,
-      year: new Date(releaseDate).getFullYear(),
-      posterPath: match.poster_path ? `${TMDB_IMAGE_BASE}${match.poster_path}` : null,
-    };
-  } catch (e) {
-    console.error(`  TMDB search failed for "${title}" (${year}):`, e);
+    const data = (await res.json()) as { Poster?: string; Response?: string };
+    if (data.Response === 'False' || !data.Poster || data.Poster === 'N/A') return null;
+    return data.Poster;
+  } catch {
     return null;
   }
 }
 
 async function generateTheme(usedThemes: string[]): Promise<{
   theme: string;
-  movies: Array<{ title: string; year: number }>;
+  movies: Array<{ title: string; year: number; releaseDate: string }>;
 }> {
   const avoidList = usedThemes.length > 0 ? `\nAvoid these already-used themes: ${usedThemes.join(', ')}` : '';
 
   const message = await anthropic.messages.create({
     model: 'claude-opus-4-6',
-    max_tokens: 512,
+    max_tokens: 768,
     messages: [
       {
         role: 'user',
@@ -84,17 +67,18 @@ Pick exactly 4 movies that share a fun connection (same actor, director, franchi
 STRICT RULES:
 - All 4 movies must have DIFFERENT release years (no year can repeat)
 - Movies should span at least 10 years
-- Be clever and fun — themes like "Movies with animals in the title", "Films directed by Spielberg", "Sequels that surpassed the original"
-- Movies must be real, well-known films that exist on TMDB${avoidList}
+- Be clever and fun — themes like "Movies set in space", "Films directed by Spielberg", "Sequels that surpassed the original"
+- Movies must be real, well-known films
+- Include the exact release date (YYYY-MM-DD) for each film — be precise${avoidList}
 
 Respond with ONLY valid JSON (no markdown, no extra text):
 {
   "theme": "Short catchy theme name",
   "movies": [
-    { "title": "Exact Movie Title", "year": 1984 },
-    { "title": "Exact Movie Title", "year": 1991 },
-    { "title": "Exact Movie Title", "year": 1999 },
-    { "title": "Exact Movie Title", "year": 2007 }
+    { "title": "Exact Movie Title", "year": 1984, "releaseDate": "1984-06-22" },
+    { "title": "Exact Movie Title", "year": 1991, "releaseDate": "1991-07-03" },
+    { "title": "Exact Movie Title", "year": 1999, "releaseDate": "1999-05-19" },
+    { "title": "Exact Movie Title", "year": 2007, "releaseDate": "2007-05-04" }
   ]
 }`,
       },
@@ -104,9 +88,8 @@ Respond with ONLY valid JSON (no markdown, no extra text):
   const content = message.content[0];
   if (content.type !== 'text') throw new Error('Unexpected Claude response type');
 
-  // Strip any accidental markdown fences
   const cleaned = content.text.trim().replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
-  return JSON.parse(cleaned) as { theme: string; movies: Array<{ title: string; year: number }> };
+  return JSON.parse(cleaned) as { theme: string; movies: Array<{ title: string; year: number; releaseDate: string }> };
 }
 
 function addDays(date: string, days: number): string {
@@ -150,30 +133,31 @@ async function main() {
         console.log(`  Theme: ${theme.theme}`);
         console.log(`  Movies: ${theme.movies.map(m => `${m.title} (${m.year})`).join(', ')}`);
 
-        const movieResults = await Promise.all(theme.movies.map(m => searchTMDB(m.title, m.year)));
-
-        if (movieResults.some(m => m === null)) {
-          console.log(`  ⚠  Some movies not found on TMDB, retrying…`);
-          continue;
-        }
-
-        const sorted = (movieResults as MovieData[]).sort((a, b) =>
-          a.releaseDate.localeCompare(b.releaseDate)
-        );
-
-        const years = sorted.map(m => m.year);
+        const years = theme.movies.map(m => m.year);
         if (new Set(years).size !== 4) {
-          console.log(`  ⚠  Duplicate years after TMDB lookup, retrying…`);
+          console.log(`  ⚠  Duplicate years in Claude response, retrying…`);
           continue;
         }
+
+        // Sort by release date and optionally fetch posters
+        const sorted = [...theme.movies].sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
+        const movies: MovieData[] = await Promise.all(
+          sorted.map(async (m, i) => ({
+            tmdbId: i + 1, // placeholder ID, unique within this puzzle
+            title: m.title,
+            year: m.year,
+            releaseDate: m.releaseDate,
+            posterPath: await fetchPoster(m.title, m.year),
+          }))
+        );
 
         puzzle = {
           id: 0, // reassigned below
           date: currentDate,
           theme: theme.theme,
-          movies: sorted,
+          movies,
         };
-        console.log(`  ✓ ${sorted.map(m => `${m.title} (${m.year})`).join(' → ')}`);
+        console.log(`  ✓ ${movies.map(m => `${m.title} (${m.year})`).join(' → ')}`);
       } catch (e) {
         console.error(`  Error (attempt ${retries}):`, e);
         await new Promise(r => setTimeout(r, 2000));

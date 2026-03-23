@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate puzzles
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           # Find the last date in puzzles.json and start from the next day
