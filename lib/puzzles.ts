@@ -23,5 +23,9 @@ export function getAllPuzzles(): Puzzle[] {
 
 export function getAllPastPuzzles(): Puzzle[] {
   const today = new Date().toISOString().split('T')[0];
-  return [...puzzles].filter(p => p.date <= today).reverse(); // newest first
+  // Show all puzzles up to today. If no puzzles are in the past yet
+  // (e.g. all dates are future), show them all so the archive isn't empty.
+  const past = [...puzzles].filter(p => p.date <= today);
+  const list = past.length > 0 ? past : [...puzzles];
+  return list.reverse(); // newest first
 }

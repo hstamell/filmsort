@@ -12,10 +12,9 @@ export function generateStaticParams() {
 export const revalidate = 3600;
 
 export default function PuzzlePage({ params }: { params: { date: string } }) {
-  const today = new Date().toISOString().split('T')[0];
   const puzzle = getPuzzleByDate(params.date);
 
-  if (!puzzle || puzzle.date > today) notFound();
+  if (!puzzle) notFound();
 
   const puzzleNumber = getPuzzleNumber(puzzle.date);
   const moviesWithPosters: Movie[] = puzzle.movies.map(m => ({
