@@ -11,8 +11,9 @@ export function generateStaticParams() {
 
 export const revalidate = 3600;
 
-export default function PuzzlePage({ params }: { params: { date: string } }) {
-  const puzzle = getPuzzleByDate(params.date);
+export default async function PuzzlePage({ params }: { params: Promise<{ date: string }> }) {
+  const { date } = await params;
+  const puzzle = getPuzzleByDate(date);
 
   if (!puzzle) notFound();
 
