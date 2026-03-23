@@ -11,51 +11,54 @@ interface MovieCardProps {
   handleProps?: React.HTMLAttributes<HTMLDivElement>;
 }
 
-export default function MovieCard({
-  movie,
-  isDragging,
-  feedback,
-  showYear,
-  handleProps,
-}: MovieCardProps) {
-  const border =
+export default function MovieCard({ movie, isDragging, feedback, showYear, handleProps }: MovieCardProps) {
+  const borderColor =
     feedback === 'correct'
-      ? 'border-green-500'
+      ? '#22c55e'
       : feedback === 'incorrect'
-        ? 'border-red-500'
-        : 'border-zinc-700';
+        ? '#ef4444'
+        : 'var(--border)';
 
-  const bg =
+  const bgColor =
     feedback === 'correct'
-      ? 'bg-green-950'
+      ? 'rgba(34,197,94,0.07)'
       : feedback === 'incorrect'
-        ? 'bg-red-950'
-        : 'bg-zinc-800 hover:bg-zinc-750';
+        ? 'rgba(239,68,68,0.07)'
+        : 'var(--card)';
 
   return (
     <div
-      className={`flex items-center gap-3 p-3 rounded-xl border-2 transition-all select-none
-        ${border} ${bg}
-        ${isDragging ? 'opacity-40 scale-105 shadow-2xl' : 'opacity-100 shadow-md'}`}
+      className="card-shadow flex items-center gap-3 p-3 rounded-xl border transition-all select-none"
+      style={{
+        background: bgColor,
+        borderColor,
+        borderWidth: '1.5px',
+        opacity: isDragging ? 0.4 : 1,
+        transform: isDragging ? 'scale(1.04)' : 'scale(1)',
+      }}
     >
       {/* Drag handle */}
       <div
         {...handleProps}
-        className="cursor-grab active:cursor-grabbing text-zinc-500 hover:text-zinc-300 px-1 touch-none"
+        className="cursor-grab active:cursor-grabbing touch-none flex-shrink-0 px-1"
+        style={{ color: 'var(--text-muted)' }}
         aria-label="drag handle"
       >
-        <svg width="12" height="20" viewBox="0 0 12 20" fill="currentColor">
-          <circle cx="4" cy="4" r="2" />
-          <circle cx="4" cy="10" r="2" />
-          <circle cx="4" cy="16" r="2" />
-          <circle cx="10" cy="4" r="2" />
-          <circle cx="10" cy="10" r="2" />
-          <circle cx="10" cy="16" r="2" />
+        <svg width="10" height="18" viewBox="0 0 10 18" fill="currentColor">
+          <circle cx="3" cy="3" r="1.5" />
+          <circle cx="3" cy="9" r="1.5" />
+          <circle cx="3" cy="15" r="1.5" />
+          <circle cx="8" cy="3" r="1.5" />
+          <circle cx="8" cy="9" r="1.5" />
+          <circle cx="8" cy="15" r="1.5" />
         </svg>
       </div>
 
       {/* Poster */}
-      <div className="w-11 h-16 flex-shrink-0 rounded-md overflow-hidden bg-zinc-700">
+      <div
+        className="w-11 h-16 flex-shrink-0 rounded-lg overflow-hidden"
+        style={{ background: 'var(--surface)', border: '1px solid var(--border)' }}
+      >
         {movie.posterUrl ? (
           <Image
             src={movie.posterUrl}
@@ -66,7 +69,7 @@ export default function MovieCard({
             unoptimized
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-zinc-500 text-2xl">
+          <div className="w-full h-full flex items-center justify-center text-xl" style={{ color: 'var(--text-muted)' }}>
             🎬
           </div>
         )}
@@ -74,17 +77,26 @@ export default function MovieCard({
 
       {/* Title + year */}
       <div className="flex-1 min-w-0">
-        <p className="text-white font-semibold leading-tight truncate">{movie.title}</p>
+        <p
+          className="font-semibold leading-tight truncate"
+          style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-dm-sans), sans-serif' }}
+        >
+          {movie.title}
+        </p>
         {showYear ? (
-          <p className="text-zinc-400 text-sm mt-0.5">{movie.year}</p>
+          <p className="text-sm mt-0.5 font-medium" style={{ color: 'var(--gold-dim)' }}>
+            {movie.year}
+          </p>
         ) : (
-          <p className="text-zinc-600 text-sm mt-0.5">????</p>
+          <p className="text-sm mt-0.5" style={{ color: 'var(--text-muted)' }}>
+            ????
+          </p>
         )}
       </div>
 
-      {/* Feedback icon */}
+      {/* Feedback */}
       {feedback && (
-        <span className={`text-xl flex-shrink-0 ${feedback === 'correct' ? 'text-green-400' : 'text-red-400'}`}>
+        <span className="text-lg flex-shrink-0" style={{ color: feedback === 'correct' ? '#22c55e' : '#ef4444' }}>
           {feedback === 'correct' ? '✓' : '✗'}
         </span>
       )}

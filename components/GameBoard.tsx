@@ -124,39 +124,44 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
 
   if (!hydrated) {
     return (
-      <div className="flex items-center justify-center h-64 text-zinc-500">
+      <div className="flex items-center justify-center h-64" style={{ color: 'var(--text-muted)' }}>
         Loading today's puzzle…
       </div>
     );
   }
 
   return (
-    <div className="w-full max-w-md mx-auto px-4 pb-10">
+    <div className="w-full max-w-md mx-auto px-4 pb-12">
       {/* Theme */}
       <div className="text-center mb-6">
-        <p className="text-zinc-500 text-xs uppercase tracking-widest mb-1">Today's Theme</p>
-        <h2 className="text-white text-2xl font-bold">{puzzle.theme}</h2>
+        <p className="text-xs uppercase tracking-[0.18em] mb-2" style={{ color: 'var(--text-muted)' }}>
+          Today's Theme
+        </p>
+        <h2
+          className="text-2xl font-bold leading-snug"
+          style={{ fontFamily: 'var(--font-playfair), serif', color: 'var(--text-primary)' }}
+        >
+          {puzzle.theme}
+        </h2>
       </div>
 
       {/* Instructions */}
       {attempts.length === 0 && gameStatus === 'playing' && (
-        <p className="text-zinc-500 text-sm text-center mb-5">
-          Drag the movies into order — earliest release at the top, latest at the bottom.
+        <p className="text-sm text-center mb-5 italic" style={{ color: 'var(--text-secondary)' }}>
+          Drag to order from earliest to latest release
         </p>
       )}
 
       {/* Attempt history */}
       {attempts.length > 0 && (
-        <div className="flex flex-col gap-1 items-center mb-5">
+        <div className="flex flex-col gap-1.5 items-center mb-5">
           {attempts.map((attempt, i) => (
             <div key={i} className="flex gap-1 items-center">
-              <span className="text-zinc-600 text-xs w-12 text-right mr-1">
+              <span className="text-xs w-10 text-right mr-1" style={{ color: 'var(--text-muted)' }}>
                 {i + 1}/{MAX_ATTEMPTS}
               </span>
               {attempt.correct.map((c, j) => (
-                <span key={j} className="text-lg leading-none">
-                  {c ? '🟩' : '🟥'}
-                </span>
+                <span key={j} className="text-base leading-none">{c ? '🟩' : '🟥'}</span>
               ))}
             </div>
           ))}
@@ -164,22 +169,15 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
       )}
 
       {/* Direction labels */}
-      <div className="flex justify-between text-zinc-600 text-xs px-1 mb-1.5">
-        <span>↑ EARLIEST</span>
-        <span>LATEST ↓</span>
+      <div className="flex justify-between text-xs px-1 mb-2 uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>
+        <span>↑ Earliest</span>
+        <span>Latest ↓</span>
       </div>
 
       {/* Drag-and-drop list */}
-      <DndContext
-        sensors={sensors}
-        collisionDetection={closestCenter}
-        onDragEnd={handleDragEnd}
-      >
-        <SortableContext
-          items={movies.map(m => m.tmdbId)}
-          strategy={verticalListSortingStrategy}
-        >
-          <div className="flex flex-col gap-2">
+      <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
+        <SortableContext items={movies.map(m => m.tmdbId)} strategy={verticalListSortingStrategy}>
+          <div className="flex flex-col gap-2.5">
             {movies.map((movie, i) => (
               <SortableMovieCard
                 key={movie.tmdbId}
@@ -195,31 +193,42 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
 
       {/* Result banner */}
       {gameStatus === 'won' && (
-        <div className="mt-4 p-4 bg-green-950 border border-green-700 rounded-xl text-center">
-          <p className="text-green-300 font-bold text-lg">You got it! 🎬</p>
-          <p className="text-green-500 text-sm mt-0.5">
+        <div
+          className="mt-5 p-4 rounded-xl text-center"
+          style={{ background: 'rgba(34,197,94,0.07)', border: '1.5px solid rgba(34,197,94,0.3)' }}
+        >
+          <p className="font-bold text-lg" style={{ color: '#4ade80', fontFamily: 'var(--font-playfair), serif' }}>
+            Bravo! 🎬
+          </p>
+          <p className="text-sm mt-0.5" style={{ color: 'rgba(74,222,128,0.7)' }}>
             Solved in {attempts.length} attempt{attempts.length !== 1 ? 's' : ''}
           </p>
         </div>
       )}
 
       {gameStatus === 'lost' && (
-        <div className="mt-4 p-4 bg-red-950 border border-red-800 rounded-xl text-center">
-          <p className="text-red-300 font-bold text-lg">No more attempts!</p>
-          <p className="text-red-500 text-sm mt-0.5">Correct order shown above</p>
+        <div
+          className="mt-5 p-4 rounded-xl text-center"
+          style={{ background: 'rgba(239,68,68,0.07)', border: '1.5px solid rgba(239,68,68,0.25)' }}
+        >
+          <p className="font-bold text-lg" style={{ color: '#f87171', fontFamily: 'var(--font-playfair), serif' }}>
+            Better luck tomorrow
+          </p>
+          <p className="text-sm mt-0.5" style={{ color: 'rgba(248,113,113,0.65)' }}>Correct order shown above</p>
         </div>
       )}
 
-      {/* Check / Share buttons */}
-      <div className="mt-4 flex flex-col gap-2">
+      {/* Buttons */}
+      <div className="mt-5 flex flex-col gap-2">
         {gameStatus === 'playing' && (
           <>
-            <p className="text-zinc-600 text-xs text-center">
+            <p className="text-xs text-center" style={{ color: 'var(--text-muted)' }}>
               Attempt {attempts.length + 1} of {MAX_ATTEMPTS}
             </p>
             <button
               onClick={handleCheck}
-              className="w-full py-3.5 bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-black font-bold text-base rounded-xl transition-colors"
+              className="btn-gold w-full py-3.5 font-bold text-base rounded-xl transition-all"
+              style={{ color: 'var(--bg)', fontFamily: 'var(--font-dm-sans), sans-serif' }}
             >
               Check Order
             </button>
@@ -229,16 +238,20 @@ export default function GameBoard({ puzzle, puzzleNumber }: GameBoardProps) {
         {gameStatus !== 'playing' && (
           <button
             onClick={() => setShowShare(true)}
-            className="w-full py-3.5 bg-zinc-700 hover:bg-zinc-600 active:bg-zinc-800 text-white font-bold text-base rounded-xl transition-colors"
+            className="w-full py-3.5 font-bold text-base rounded-xl transition-all"
+            style={{
+              background: 'var(--card)',
+              border: '1.5px solid var(--gold-dim)',
+              color: 'var(--gold)',
+              fontFamily: 'var(--font-dm-sans), sans-serif',
+            }}
           >
             Share Results
           </button>
         )}
       </div>
 
-      {showShare && (
-        <ShareModal shareText={shareText} onClose={() => setShowShare(false)} />
-      )}
+      {showShare && <ShareModal shareText={shareText} onClose={() => setShowShare(false)} />}
     </div>
   );
 }

@@ -15,12 +15,18 @@ export default function Home() {
   }));
 
   return (
-    <main className="min-h-screen bg-zinc-900 py-8">
-      <header className="text-center mb-8 px-4">
-        <h1 className="text-amber-400 text-5xl font-black tracking-tight">FilmSort</h1>
-        <p className="text-zinc-500 text-sm mt-1.5">
-          #{puzzleNumber}&nbsp;·&nbsp;New puzzle every day
+    <main className="min-h-screen py-10" style={{ background: "var(--bg)" }}>
+      <header className="text-center mb-10 px-4">
+        <h1
+          className="title-glow text-6xl font-black tracking-wide"
+          style={{ fontFamily: "var(--font-playfair), serif", color: "var(--gold)" }}
+        >
+          FilmSort
+        </h1>
+        <p className="mt-2 text-xs uppercase tracking-[0.2em]" style={{ color: "var(--text-muted)" }}>
+          #{puzzleNumber}&nbsp;&nbsp;·&nbsp;&nbsp;New puzzle every day
         </p>
+        <div className="mt-4 mx-auto w-24 h-px" style={{ background: "linear-gradient(to right, transparent, var(--gold-dim), transparent)" }} />
       </header>
 
       <GameBoard

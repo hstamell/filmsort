@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["700", "900"],
+});
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "FilmSort – Daily Movie Ranking Game",
@@ -16,8 +25,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${geistSans.variable} h-full antialiased`}>
-      <body className="min-h-full bg-zinc-900 text-white">{children}</body>
+    <html lang="en" className={`${playfair.variable} ${dmSans.variable} h-full antialiased`}>
+      <body className="min-h-full" style={{ background: "var(--bg)", fontFamily: "var(--font-dm-sans), sans-serif" }}>
+        {children}
+      </body>
     </html>
   );
 }
