@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { getTodaysPuzzle, getPuzzleNumber } from '@/lib/puzzles';
 import { getPosterUrl } from '@/lib/tmdb';
 import GameBoard from '@/components/GameBoard';
@@ -27,6 +28,13 @@ export default function Home() {
           #{puzzleNumber}&nbsp;&nbsp;·&nbsp;&nbsp;New puzzle every day
         </p>
         <div className="mt-4 mx-auto w-24 h-px" style={{ background: "linear-gradient(to right, transparent, var(--gold-dim), transparent)" }} />
+        <Link
+          href="/archive"
+          className="inline-block mt-4 text-xs uppercase tracking-widest transition-colors hover:opacity-80"
+          style={{ color: 'var(--text-muted)' }}
+        >
+          Archive →
+        </Link>
       </header>
 
       <GameBoard
