@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03-22",
+    "theme": "Beverly Hills Movies",
+    "movies": [
+      { "tmdbId": 1267, "title": "Beverly Hills Cop", "year": 1984, "releaseDate": "1984-12-05", "posterPath": null },
+      { "tmdbId": 14904, "title": "Troop Beverly Hills", "year": 1989, "releaseDate": "1989-03-17", "posterPath": null },
+      { "tmdbId": 11613, "title": "The Beverly Hillbillies", "year": 1993, "releaseDate": "1993-10-15", "posterPath": null },
+      { "tmdbId": 9463, "title": "Beverly Hills Ninja", "year": 1997, "releaseDate": "1997-01-17", "posterPath": null }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-03-23",
+    "theme": "Time Travel Movies",
+    "movies": [
+      { "tmdbId": 4977, "title": "The Time Machine", "year": 1960, "releaseDate": "1960-08-17", "posterPath": null },
+      { "tmdbId": 105, "title": "Back to the Future", "year": 1985, "releaseDate": "1985-07-03", "posterPath": null },
+      { "tmdbId": 63, "title": "Twelve Monkeys", "year": 1995, "releaseDate": "1995-01-05", "posterPath": null },
+      { "tmdbId": 270946, "title": "Looper", "year": 2012, "releaseDate": "2012-09-28", "posterPath": null }
+    ]
+  },
+  {
+    "id": 3,
+    "date": "2026-03-24",
+    "theme": "Tom Hanks Films",
+    "movies": [
+      { "tmdbId": 3733, "title": "Big", "year": 1988, "releaseDate": "1988-06-03", "posterPath": null },
+      { "tmdbId": 364, "title": "Philadelphia", "year": 1993, "releaseDate": "1993-12-22", "posterPath": null },
+      { "tmdbId": 13, "title": "Forrest Gump", "year": 1994, "releaseDate": "1994-07-06", "posterPath": null },
+      { "tmdbId": 3087, "title": "Cast Away", "year": 2000, "releaseDate": "2000-12-22", "posterPath": null }
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2026-03-25",
+    "theme": "Shark Attack Movies",
+    "movies": [
+      { "tmdbId": 578, "title": "Jaws", "year": 1975, "releaseDate": "1975-06-20", "posterPath": null },
+      { "tmdbId": 579, "title": "Jaws 2", "year": 1978, "releaseDate": "1978-06-16", "posterPath": null },
+      { "tmdbId": 9551, "title": "Deep Blue Sea", "year": 1999, "releaseDate": "1999-07-28", "posterPath": null },
+      { "tmdbId": 345940, "title": "The Meg", "year": 2018, "releaseDate": "2018-08-10", "posterPath": null }
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2026-03-26",
+    "theme": "Space Exploration Films",
+    "movies": [
+      { "tmdbId": 62, "title": "2001: A Space Odyssey", "year": 1968, "releaseDate": "1968-04-02", "posterPath": null },
+      { "tmdbId": 348, "title": "Alien", "year": 1979, "releaseDate": "1979-05-25", "posterPath": null },
+      { "tmdbId": 895, "title": "Armageddon", "year": 1998, "releaseDate": "1998-07-01", "posterPath": null },
+      { "tmdbId": 49047, "title": "Gravity", "year": 2013, "releaseDate": "2013-10-04", "posterPath": null }
+    ]
+  },
+  {
+    "id": 6,
+    "date": "2026-03-27",
+    "theme": "Superhero Origin Stories",
+    "movies": [
+      { "tmdbId": 1924, "title": "Superman", "year": 1978, "releaseDate": "1978-12-15", "posterPath": null },
+      { "tmdbId": 268, "title": "Batman", "year": 1989, "releaseDate": "1989-06-23", "posterPath": null },
+      { "tmdbId": 1930, "title": "Spider-Man", "year": 2002, "releaseDate": "2002-05-03", "posterPath": null },
+      { "tmdbId": 1726, "title": "Iron Man", "year": 2008, "releaseDate": "2008-05-02", "posterPath": null }
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2026-03-28",
+    "theme": "Will Smith Action Films",
+    "movies": [
+      { "tmdbId": 9737, "title": "Bad Boys", "year": 1995, "releaseDate": "1995-04-07", "posterPath": null },
+      { "tmdbId": 602, "title": "Independence Day", "year": 1996, "releaseDate": "1996-07-03", "posterPath": null },
+      { "tmdbId": 607, "title": "Men in Black", "year": 1997, "releaseDate": "1997-07-02", "posterPath": null },
+      { "tmdbId": 9804, "title": "Ali", "year": 2001, "releaseDate": "2001-12-25", "posterPath": null }
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026-03-29",
+    "theme": "Arnold Schwarzenegger Action Films",
+    "movies": [
+      { "tmdbId": 218, "title": "The Terminator", "year": 1984, "releaseDate": "1984-10-26", "posterPath": null },
+      { "tmdbId": 8870, "title": "Predator", "year": 1987, "releaseDate": "1987-06-12", "posterPath": null },
+      { "tmdbId": 861, "title": "Total Recall", "year": 1990, "releaseDate": "1990-06-01", "posterPath": null },
+      { "tmdbId": 1503, "title": "True Lies", "year": 1994, "releaseDate": "1994-07-15", "posterPath": null }
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2026-03-30",
+    "theme": "Adam Sandler Comedies",
+    "movies": [
+      { "tmdbId": 9792, "title": "Billy Madison", "year": 1995, "releaseDate": "1995-02-10", "posterPath": null },
+      { "tmdbId": 9826, "title": "Happy Gilmore", "year": 1996, "releaseDate": "1996-02-16", "posterPath": null },
+      { "tmdbId": 9832, "title": "The Waterboy", "year": 1998, "releaseDate": "1998-11-06", "posterPath": null },
+      { "tmdbId": 9831, "title": "Big Daddy", "year": 1999, "releaseDate": "1999-06-25", "posterPath": null }
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2026-03-31",
+    "theme": "Eddie Murphy Comedies",
+    "movies": [
+      { "tmdbId": 1267, "title": "48 Hrs.", "year": 1982, "releaseDate": "1982-12-08", "posterPath": null },
+      { "tmdbId": 1489, "title": "Trading Places", "year": 1983, "releaseDate": "1983-06-08", "posterPath": null },
+      { "tmdbId": 953, "title": "Coming to America", "year": 1988, "releaseDate": "1988-06-29", "posterPath": null },
+      { "tmdbId": 8467, "title": "The Nutty Professor", "year": 1996, "releaseDate": "1996-07-12", "posterPath": null }
+    ]
+  }
+]
