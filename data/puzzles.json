@@ -4,10 +4,34 @@
     "date": "2026-03-22",
     "theme": "Beverly Hills Movies",
     "movies": [
-      { "tmdbId": 1267, "title": "Beverly Hills Cop", "year": 1984, "releaseDate": "1984-12-05", "posterPath": null },
-      { "tmdbId": 14904, "title": "Troop Beverly Hills", "year": 1989, "releaseDate": "1989-03-17", "posterPath": null },
-      { "tmdbId": 11613, "title": "The Beverly Hillbillies", "year": 1993, "releaseDate": "1993-10-15", "posterPath": null },
-      { "tmdbId": 9463, "title": "Beverly Hills Ninja", "year": 1997, "releaseDate": "1997-01-17", "posterPath": null }
+      {
+        "tmdbId": 1267,
+        "title": "Beverly Hills Cop",
+        "year": 1984,
+        "releaseDate": "1984-12-05",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjU4OGM2MzctNGU3ZC00M2EzLThiN2ItOTlmN2FjODM0MzFhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 14904,
+        "title": "Troop Beverly Hills",
+        "year": 1989,
+        "releaseDate": "1989-03-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzIxOGE1ZjAtMjc5NS00NzlkLWExM2UtNmQzZTE2NGYxYzMwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 11613,
+        "title": "The Beverly Hillbillies",
+        "year": 1993,
+        "releaseDate": "1993-10-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDY1ZTA4ZjYtYTQ4YS00M2U4LTljZjktNzA2NjYyNzY1ZWFkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 9463,
+        "title": "Beverly Hills Ninja",
+        "year": 1997,
+        "releaseDate": "1997-01-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BY2IxOTRkMDItYzRjZC00ZDQ4LWEyNTQtZjlmMWExN2U2ZjU5XkEyXkFqcGc@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -15,10 +39,34 @@
     "date": "2026-03-23",
     "theme": "Time Travel Movies",
     "movies": [
-      { "tmdbId": 4977, "title": "The Time Machine", "year": 1960, "releaseDate": "1960-08-17", "posterPath": null },
-      { "tmdbId": 105, "title": "Back to the Future", "year": 1985, "releaseDate": "1985-07-03", "posterPath": null },
-      { "tmdbId": 63, "title": "Twelve Monkeys", "year": 1995, "releaseDate": "1995-01-05", "posterPath": null },
-      { "tmdbId": 270946, "title": "Looper", "year": 2012, "releaseDate": "2012-09-28", "posterPath": null }
+      {
+        "tmdbId": 4977,
+        "title": "The Time Machine",
+        "year": 1960,
+        "releaseDate": "1960-08-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGVhNWMxZjktNjhiZS00MzhjLTk5ODUtNjNhYTFkZWUyNDZjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 105,
+        "title": "Back to the Future",
+        "year": 1985,
+        "releaseDate": "1985-07-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 63,
+        "title": "Twelve Monkeys",
+        "year": 1995,
+        "releaseDate": "1995-01-05",
+        "posterPath": null
+      },
+      {
+        "tmdbId": 270946,
+        "title": "Looper",
+        "year": 2012,
+        "releaseDate": "2012-09-28",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTg5NTA3NTg4NF5BMl5BanBnXkFtZTcwNTA0NDYzOA@@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -26,10 +74,34 @@
     "date": "2026-03-24",
     "theme": "Tom Hanks Films",
     "movies": [
-      { "tmdbId": 3733, "title": "Big", "year": 1988, "releaseDate": "1988-06-03", "posterPath": null },
-      { "tmdbId": 364, "title": "Philadelphia", "year": 1993, "releaseDate": "1993-12-22", "posterPath": null },
-      { "tmdbId": 13, "title": "Forrest Gump", "year": 1994, "releaseDate": "1994-07-06", "posterPath": null },
-      { "tmdbId": 3087, "title": "Cast Away", "year": 2000, "releaseDate": "2000-12-22", "posterPath": null }
+      {
+        "tmdbId": 3733,
+        "title": "Big",
+        "year": 1988,
+        "releaseDate": "1988-06-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzE3ZTc2ZDgtMzQ4MS00NjEyLWJkMDYtZmMzZmY5ODJhMDdmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 364,
+        "title": "Philadelphia",
+        "year": 1993,
+        "releaseDate": "1993-12-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzEzZmMwMmMtNDgxYi00YTAwLWFkMjQtOGQzNmUxMGU1YWYwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 13,
+        "title": "Forrest Gump",
+        "year": 1994,
+        "releaseDate": "1994-07-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3087,
+        "title": "Cast Away",
+        "year": 2000,
+        "releaseDate": "2000-12-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGNjNDI5ZGQtZjRjMy00NzQyLWFiYzQtYjcwNjM3ZDYwNThhXkEyXkFqcGc@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -37,10 +109,34 @@
     "date": "2026-03-25",
     "theme": "Shark Attack Movies",
     "movies": [
-      { "tmdbId": 578, "title": "Jaws", "year": 1975, "releaseDate": "1975-06-20", "posterPath": null },
-      { "tmdbId": 579, "title": "Jaws 2", "year": 1978, "releaseDate": "1978-06-16", "posterPath": null },
-      { "tmdbId": 9551, "title": "Deep Blue Sea", "year": 1999, "releaseDate": "1999-07-28", "posterPath": null },
-      { "tmdbId": 345940, "title": "The Meg", "year": 2018, "releaseDate": "2018-08-10", "posterPath": null }
+      {
+        "tmdbId": 578,
+        "title": "Jaws",
+        "year": 1975,
+        "releaseDate": "1975-06-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYjViNDQzNmUtYzkxZi00NTk5LTljMmItYjJlZmZkODIxNjU1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 579,
+        "title": "Jaws 2",
+        "year": 1978,
+        "releaseDate": "1978-06-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzAxN2Q5Y2UtMDBkZS00MGQwLWIyZDEtYTgyNGRlZmZiNjI2XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 9551,
+        "title": "Deep Blue Sea",
+        "year": 1999,
+        "releaseDate": "1999-07-28",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTM5OTUyYWYtMGE2OS00ODEzLTk0ZjctZmQ5NzFlNWQ3OTAxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 345940,
+        "title": "The Meg",
+        "year": 2018,
+        "releaseDate": "2018-08-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMWZjYjgxMzEtYTE1MS00M2RlLWJjOTUtZDA5ODM2YWQ4Y2FhXkEyXkFqcGc@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -48,10 +144,34 @@
     "date": "2026-03-26",
     "theme": "Space Exploration Films",
     "movies": [
-      { "tmdbId": 62, "title": "2001: A Space Odyssey", "year": 1968, "releaseDate": "1968-04-02", "posterPath": null },
-      { "tmdbId": 348, "title": "Alien", "year": 1979, "releaseDate": "1979-05-25", "posterPath": null },
-      { "tmdbId": 895, "title": "Armageddon", "year": 1998, "releaseDate": "1998-07-01", "posterPath": null },
-      { "tmdbId": 49047, "title": "Gravity", "year": 2013, "releaseDate": "2013-10-04", "posterPath": null }
+      {
+        "tmdbId": 62,
+        "title": "2001: A Space Odyssey",
+        "year": 1968,
+        "releaseDate": "1968-04-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjU0NDFkMTQtZWY5OS00MmZhLTg3Y2QtZmJhMzMzMWYyYjc2XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 348,
+        "title": "Alien",
+        "year": 1979,
+        "releaseDate": "1979-05-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 895,
+        "title": "Armageddon",
+        "year": 1998,
+        "releaseDate": "1998-07-01",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzQ3MzJmZjUtNTc0OC00ZWRiLWJkMTYtMTZkMDVhMDQ4OGU4XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 49047,
+        "title": "Gravity",
+        "year": 2013,
+        "releaseDate": "2013-10-04",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -59,10 +179,34 @@
     "date": "2026-03-27",
     "theme": "Superhero Origin Stories",
     "movies": [
-      { "tmdbId": 1924, "title": "Superman", "year": 1978, "releaseDate": "1978-12-15", "posterPath": null },
-      { "tmdbId": 268, "title": "Batman", "year": 1989, "releaseDate": "1989-06-23", "posterPath": null },
-      { "tmdbId": 1930, "title": "Spider-Man", "year": 2002, "releaseDate": "2002-05-03", "posterPath": null },
-      { "tmdbId": 1726, "title": "Iron Man", "year": 2008, "releaseDate": "2008-05-02", "posterPath": null }
+      {
+        "tmdbId": 1924,
+        "title": "Superman",
+        "year": 1978,
+        "releaseDate": "1978-12-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzFlZDJjMDAtZDYxZS00NzZhLTk2ODMtZWRlODA3Njk3ZTdmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 268,
+        "title": "Batman",
+        "year": 1989,
+        "releaseDate": "1989-06-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 1930,
+        "title": "Spider-Man",
+        "year": 2002,
+        "releaseDate": "2002-05-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 1726,
+        "title": "Iron Man",
+        "year": 2008,
+        "releaseDate": "2008-05-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -70,10 +214,34 @@
     "date": "2026-03-28",
     "theme": "Will Smith Action Films",
     "movies": [
-      { "tmdbId": 9737, "title": "Bad Boys", "year": 1995, "releaseDate": "1995-04-07", "posterPath": null },
-      { "tmdbId": 602, "title": "Independence Day", "year": 1996, "releaseDate": "1996-07-03", "posterPath": null },
-      { "tmdbId": 607, "title": "Men in Black", "year": 1997, "releaseDate": "1997-07-02", "posterPath": null },
-      { "tmdbId": 9804, "title": "Ali", "year": 2001, "releaseDate": "2001-12-25", "posterPath": null }
+      {
+        "tmdbId": 9737,
+        "title": "Bad Boys",
+        "year": 1995,
+        "releaseDate": "1995-04-07",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMWNjZWEwNDMtMWE1ZC00MTgwLTk2YzAtYmE0NTkwOWVhMDI0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 602,
+        "title": "Independence Day",
+        "year": 1996,
+        "releaseDate": "1996-07-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGMwN2UwZjEtYjFjMi00ZDA1LWJlYTQtMjA1MTYxMzIyNTdiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 607,
+        "title": "Men in Black",
+        "year": 1997,
+        "releaseDate": "1997-07-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZmQ0YTdhYzEtMjIxZC00MGFiLTlmNjktZmFlOWE2M2QxOTRhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 9804,
+        "title": "Ali",
+        "year": 2001,
+        "releaseDate": "2001-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODVhNWUwMGItZTg1My00Njg1LTllMjctNzQzMjIzODUyZDhmXkEyXkFqcGc@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -81,10 +249,34 @@
     "date": "2026-03-29",
     "theme": "Arnold Schwarzenegger Action Films",
     "movies": [
-      { "tmdbId": 218, "title": "The Terminator", "year": 1984, "releaseDate": "1984-10-26", "posterPath": null },
-      { "tmdbId": 8870, "title": "Predator", "year": 1987, "releaseDate": "1987-06-12", "posterPath": null },
-      { "tmdbId": 861, "title": "Total Recall", "year": 1990, "releaseDate": "1990-06-01", "posterPath": null },
-      { "tmdbId": 1503, "title": "True Lies", "year": 1994, "releaseDate": "1994-07-15", "posterPath": null }
+      {
+        "tmdbId": 218,
+        "title": "The Terminator",
+        "year": 1984,
+        "releaseDate": "1984-10-26",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 8870,
+        "title": "Predator",
+        "year": 1987,
+        "releaseDate": "1987-06-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOWEzMDI0MTUtMjQ0Yy00MGRhLWI4YjAtZTgzZTM3NTYxZGJkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 861,
+        "title": "Total Recall",
+        "year": 1990,
+        "releaseDate": "1990-06-01",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZjRlMzBkOGMtMTA1Ny00ZWI4LTkzMDItOGVkNWJkN2E4ZTkwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 1503,
+        "title": "True Lies",
+        "year": 1994,
+        "releaseDate": "1994-07-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYjU1ZjNhMjMtOTMxZS00MDc1LTlkNzQtZTdjNGQyYjQ4YTA4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -92,10 +284,34 @@
     "date": "2026-03-30",
     "theme": "Adam Sandler Comedies",
     "movies": [
-      { "tmdbId": 9792, "title": "Billy Madison", "year": 1995, "releaseDate": "1995-02-10", "posterPath": null },
-      { "tmdbId": 9826, "title": "Happy Gilmore", "year": 1996, "releaseDate": "1996-02-16", "posterPath": null },
-      { "tmdbId": 9832, "title": "The Waterboy", "year": 1998, "releaseDate": "1998-11-06", "posterPath": null },
-      { "tmdbId": 9831, "title": "Big Daddy", "year": 1999, "releaseDate": "1999-06-25", "posterPath": null }
+      {
+        "tmdbId": 9792,
+        "title": "Billy Madison",
+        "year": 1995,
+        "releaseDate": "1995-02-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BY2Y2ODczY2YtZTQ4NS00NWQxLTlhZWMtZWY4M2IyMmJhZGI1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 9826,
+        "title": "Happy Gilmore",
+        "year": 1996,
+        "releaseDate": "1996-02-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzMyZTM1MTMtNDdjOS00NzIzLTkxY2QtZTU4OGYxOTUwNDMxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 9832,
+        "title": "The Waterboy",
+        "year": 1998,
+        "releaseDate": "1998-11-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZTQxMWE5ZTEtYzI1OC00NDdkLWI0YjUtMTk4NjU0YWI4YjY0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 9831,
+        "title": "Big Daddy",
+        "year": 1999,
+        "releaseDate": "1999-06-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGQwMzAyMjEtYjNiNi00NWQwLThiNjQtY2Q2ZWQ5ZGIzMDI4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
     ]
   },
   {
@@ -103,10 +319,2141 @@
     "date": "2026-03-31",
     "theme": "Eddie Murphy Comedies",
     "movies": [
-      { "tmdbId": 1267, "title": "48 Hrs.", "year": 1982, "releaseDate": "1982-12-08", "posterPath": null },
-      { "tmdbId": 1489, "title": "Trading Places", "year": 1983, "releaseDate": "1983-06-08", "posterPath": null },
-      { "tmdbId": 953, "title": "Coming to America", "year": 1988, "releaseDate": "1988-06-29", "posterPath": null },
-      { "tmdbId": 8467, "title": "The Nutty Professor", "year": 1996, "releaseDate": "1996-07-12", "posterPath": null }
+      {
+        "tmdbId": 1267,
+        "title": "48 Hrs.",
+        "year": 1982,
+        "releaseDate": "1982-12-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGQwMzQ1NjItMWU0YS00ZDc0LThlYzUtMDgzOTIzN2QwZTJmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 1489,
+        "title": "Trading Places",
+        "year": 1983,
+        "releaseDate": "1983-06-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzlkYjQ1MzUtNjgwZi00MmRhLTkwYzItMGRmN2Y3YmRjY2JmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 953,
+        "title": "Coming to America",
+        "year": 1988,
+        "releaseDate": "1988-06-29",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMDY1N2RiYWMtMTNmMy00MWQzLTlkYzAtYzRlZmM5OGZhMjUwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 8467,
+        "title": "The Nutty Professor",
+        "year": 1996,
+        "releaseDate": "1996-07-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjE0NjI1YTMtYWFiZi00Zjc1LWE5NzgtMTdlMWMwOTczZWJkXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "date": "2026-04-01",
+    "theme": "Keanu Reeves: The Chosen One",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Bill & Ted's Excellent Adventure",
+        "year": 1989,
+        "releaseDate": "1989-02-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTk3Mjk5MzI3OF5BMl5BanBnXkFtZTcwMTY4MzcyNA@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Point Break",
+        "year": 1991,
+        "releaseDate": "1991-07-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNTI3YzY3N2MtODI1OC00NmU0LThlMDYtNmFjMGFkNzhhNTRlXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Matrix",
+        "year": 1999,
+        "releaseDate": "1999-03-31",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "John Wick",
+        "year": 2014,
+        "releaseDate": "2014-10-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "date": "2026-04-02",
+    "theme": "Morgan Freeman Plays God (or Close to It)",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Robin Hood: Prince of Thieves",
+        "year": 1991,
+        "releaseDate": "1991-06-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNTUyMjA5NDktNWY5Ny00ZWU4LWE4Y2ItMDYzZTk0NzU3ZWMyXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Se7en",
+        "year": 1995,
+        "releaseDate": "1995-09-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Bruce Almighty",
+        "year": 2003,
+        "releaseDate": "2003-05-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZWM2ZjA2OTctZmRhMy00ZDIzLTkwZGQtYTRlNmQwZWZmMDBlXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Lucy",
+        "year": 2014,
+        "releaseDate": "2014-07-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODcxMzY3ODY1NF5BMl5BanBnXkFtZTgwNzg1NDY4MTE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "date": "2026-04-03",
+    "theme": "Leonardo DiCaprio Gets Destroyed by Nature",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Titanic",
+        "year": 1997,
+        "releaseDate": "1997-12-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Beach",
+        "year": 2000,
+        "releaseDate": "2000-02-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTljNTg1YjktY2I3MS00MmQwLWJkYTAtYzcwZjRjM2ExNDJjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Shutter Island",
+        "year": 2010,
+        "releaseDate": "2010-02-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Revenant",
+        "year": 2015,
+        "releaseDate": "2015-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "date": "2026-04-04",
+    "theme": "Bill Murray Doesn't Want to Be Here",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Ghostbusters",
+        "year": 1984,
+        "releaseDate": "1984-06-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMGI0Yjg2ODAtNDYzNi00Njc2LTlkMmMtMmRmYWI5MDE4ZGRkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Groundhog Day",
+        "year": 1993,
+        "releaseDate": "1993-02-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOWE3MjQ3ZDAtNDQ2MC00YjBjLTk0ZWYtNjQ0YzQ4YWE3YTEyXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Lost in Translation",
+        "year": 2003,
+        "releaseDate": "2003-09-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTUxMzk0NDg1MV5BMl5BanBnXkFtZTgwNDg0NjkxMDI@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "St. Vincent",
+        "year": 2014,
+        "releaseDate": "2014-10-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTk5NzI5OTA4MF5BMl5BanBnXkFtZTgwNjc4NTM3MjE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "date": "2026-04-05",
+    "theme": "Nicolas Cage Loses His Mind",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Raising Arizona",
+        "year": 1987,
+        "releaseDate": "1987-03-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNWIzMTdmZDgtZTc2NS00MDA1LWFiMmMtYzc5YzY0YTEyZjE5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Face/Off",
+        "year": 1997,
+        "releaseDate": "1997-06-27",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGQyOWNmYTgtZWY0NS00NzhjLTg3NmMtMzcwYzQ2OTA2OTJkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "National Treasure",
+        "year": 2004,
+        "releaseDate": "2004-11-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTY3NTc4OTYxMF5BMl5BanBnXkFtZTcwMjk5NzUyMw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Mandy",
+        "year": 2018,
+        "releaseDate": "2018-09-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGI1NTNhNzctOTk4OC00N2RjLTkwYTgtOGMwMWFjMzM5ZjNiXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "date": "2026-04-06",
+    "theme": "Jeff Goldblum Finds Something Terrifying",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Fly",
+        "year": 1986,
+        "releaseDate": "1986-08-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTBlNTliNTItY2VhNS00MjA5LTllYzItMmQyNGRjYTAyZWQxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Jurassic Park",
+        "year": 1993,
+        "releaseDate": "1993-06-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Independence Day",
+        "year": 1996,
+        "releaseDate": "1996-07-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGMwN2UwZjEtYjFjMi00ZDA1LWJlYTQtMjA1MTYxMzIyNTdiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Jurassic World: Dominion",
+        "year": 2022,
+        "releaseDate": "2022-06-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGExMWU2NWMtNzczYi00NjQ4LTk2YzctZGZkYmRmMDdhMjllXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "date": "2026-04-07",
+    "theme": "Meryl Streep Has a Terrible Accent (On Purpose)",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Sophie's Choice",
+        "year": 1982,
+        "releaseDate": "1982-12-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZDZiZGY3OWYtY2E3My00ZTY0LTk4NTEtYjMzMWZkNGJiMjNiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Out of Africa",
+        "year": 1985,
+        "releaseDate": "1985-12-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOWQ5MGI3NWYtMmVjNS00OWIzLWEzMGQtMGZhMzY3NjI2YjhiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Julie & Julia",
+        "year": 2009,
+        "releaseDate": "2009-08-07",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzA4NjA2NjI2NV5BMl5BanBnXkFtZTcwOTEzNzI2Mg@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Florence Foster Jenkins",
+        "year": 2016,
+        "releaseDate": "2016-08-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjA0Mzc4MjMxMl5BMl5BanBnXkFtZTgwODIwNTQxODE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "date": "2026-04-08",
+    "theme": "Sandra Bullock Can't Stop Moving",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Speed",
+        "year": 1994,
+        "releaseDate": "1994-06-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMDc2ODI5YWQtMmM2ZS00MTdmLWEyNWEtNmRmOGE5NGZlYWMzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Crash",
+        "year": 2004,
+        "releaseDate": "2004-09-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Blind Side",
+        "year": 2009,
+        "releaseDate": "2009-11-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Gravity",
+        "year": 2013,
+        "releaseDate": "2013-10-04",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "date": "2026-04-09",
+    "theme": "Harrison Ford Runs From Giant Things",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Raiders of the Lost Ark",
+        "year": 1981,
+        "releaseDate": "1981-06-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Fugitive",
+        "year": 1993,
+        "releaseDate": "1993-08-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BM2RjMjEwODUtYTE4OC00MzhkLThjMjItZjYyZjk3YzA4YWUxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Air Force One",
+        "year": 1997,
+        "releaseDate": "1997-07-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTVlYmFhZjktOTA2ZC00Y2YzLWFmNDMtZGU2YzBkNGZkODY4XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+        "year": 2008,
+        "releaseDate": "2008-05-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTFiMDk2NzItZDU5Ni00ZjBjLTkzYWQtYzcwZDIwMWZjMmZiXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "date": "2026-04-10",
+    "theme": "Denzel Washington Seeks Revenge",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Man on Fire",
+        "year": 2004,
+        "releaseDate": "2004-04-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMGMzNjg3ZDgtOGNlNy00NTdjLWI2NDEtMjI1MmEwMTBmMjMxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Book of Eli",
+        "year": 2010,
+        "releaseDate": "2010-01-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZjk4N2U2YTAtNWEzZC00N2VmLTlkNDctMjg5YjI4OTExZTFhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Equalizer",
+        "year": 2014,
+        "releaseDate": "2014-09-26",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTQ2MzE2NTk0NF5BMl5BanBnXkFtZTgwOTM3NTk1MjE@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Equalizer 3",
+        "year": 2023,
+        "releaseDate": "2023-09-01",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTM1OTAyYmQtY2ZiZS00NTRlLWEyZDYtZWMyYjMyOTE2YWE4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "date": "2026-04-11",
+    "theme": "Brad Pitt Gets Punched in the Face",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Fight Club",
+        "year": 1999,
+        "releaseDate": "1999-10-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Snatch",
+        "year": 2000,
+        "releaseDate": "2000-09-01",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzk5NjJkMTQtN2IyNC00YWM5LTlhZmMtNGI3MWNhMTU1YTc4XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Troy",
+        "year": 2004,
+        "releaseDate": "2004-05-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Bullet Train",
+        "year": 2022,
+        "releaseDate": "2022-08-05",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODUyZjkxZDMtZGI3ZC00ZmEwLTgwMTUtYTU4OTQ5YjU4ZjRlXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "date": "2026-04-12",
+    "theme": "Scarlett Johansson Gets Cloned or Copied",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Island",
+        "year": 2005,
+        "releaseDate": "2005-07-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTAwNjk0NjM1ODReQTJeQWpwZ15BbWU3MDc1NjIxMzM@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Prestige",
+        "year": 2006,
+        "releaseDate": "2006-10-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTM3MzQ5MjQ5OF5BMl5BanBnXkFtZTcwMTQ3NzMzMw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Her",
+        "year": 2013,
+        "releaseDate": "2013-12-18",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Under the Skin",
+        "year": 2014,
+        "releaseDate": "2014-04-04",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzZlYWMxOTAtZDI0MS00NGU0LWI2NDItZTM2MmM1YzY3NGU4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "date": "2026-04-13",
+    "theme": "Jack Nicholson Loses His Sanity",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Shining",
+        "year": 1980,
+        "releaseDate": "1980-05-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Batman",
+        "year": 1989,
+        "releaseDate": "1989-06-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "As Good as It Gets",
+        "year": 1997,
+        "releaseDate": "1997-12-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzBiMWJhYmQtOWYzNS00NjgxLWE5NDItNzZlZDQwODBmODNjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Departed",
+        "year": 2006,
+        "releaseDate": "2006-10-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "date": "2026-04-14",
+    "theme": "Matt Damon Needs to Be Rescued",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Saving Private Ryan",
+        "year": 1998,
+        "releaseDate": "1998-07-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Syriana",
+        "year": 2005,
+        "releaseDate": "2005-11-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYWQ0YmNiYjUtODg0NS00YjNkLWJhOTktOGMxNTdmYTM0ZmMzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Interstellar",
+        "year": 2014,
+        "releaseDate": "2014-11-07",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Martian",
+        "year": 2015,
+        "releaseDate": "2015-10-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "date": "2026-04-15",
+    "theme": "Joaquin Phoenix Slowly Unravels",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Gladiator",
+        "year": 2000,
+        "releaseDate": "2000-05-05",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Village",
+        "year": 2004,
+        "releaseDate": "2004-07-30",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZWI1MjE4YmYtMjJhMS00YmJhLTg1NjMtYjM5ZWE0YjM2MGFiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Master",
+        "year": 2012,
+        "releaseDate": "2012-09-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTQ2NjQ5MzMwMF5BMl5BanBnXkFtZTcwMjczNTAzOA@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Joker",
+        "year": 2019,
+        "releaseDate": "2019-10-04",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "date": "2026-04-16",
+    "theme": "Tom Cruise Runs for His Life",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Top Gun",
+        "year": 1986,
+        "releaseDate": "1986-05-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZmVjNzQ3MjYtYTZiNC00Y2YzLWExZTEtMTM2ZDllNDI0MzgyXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Firm",
+        "year": 1993,
+        "releaseDate": "1993-06-30",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjE3ZDZkMWMtY2RkMC00YzJjLWFhYTUtYmRjMzAyMzEwZDE5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Minority Report",
+        "year": 2002,
+        "releaseDate": "2002-06-21",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTdmNzM3YzItZTRkYS00MTY5LTg4ZmItNjFmNTk2N2Q2NmNlXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Mission: Impossible - Fallout",
+        "year": 2018,
+        "releaseDate": "2018-07-27",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZmUwZTg2YmMtMmZjOS00ZDYwLWI2ZDgtZDcyY2ZmMWMwZDdlXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "date": "2026-04-17",
+    "theme": "Samuel L. Jackson Has Had Enough",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Jurassic Park",
+        "year": 1993,
+        "releaseDate": "1993-06-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "releaseDate": "1994-10-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Snakes on a Plane",
+        "year": 2006,
+        "releaseDate": "2006-08-18",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMThjYjk2MDItYTFiNS00N2I1LTgwYjktMWM4ODFjYTczYmUxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Hateful Eight",
+        "year": 2015,
+        "releaseDate": "2015-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "date": "2026-04-18",
+    "theme": "Cate Blanchett Plays Royalty",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Elizabeth",
+        "year": 1998,
+        "releaseDate": "1998-11-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNWRjZjJjNDUtOTgzMi00YjBlLTg5ODQtMjQxOTAyMzM2ZWJiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": 2001,
+        "releaseDate": "2001-12-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Elizabeth: The Golden Age",
+        "year": 2007,
+        "releaseDate": "2007-10-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDE1YTM4NTYtNGFjNi00OWE1LTg1MjEtYmNhZWMzODRlNDE5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Thor: Ragnarok",
+        "year": 2017,
+        "releaseDate": "2017-11-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "date": "2026-04-19",
+    "theme": "Amy Adams Falls for a Complicated Man",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Junebug",
+        "year": 2005,
+        "releaseDate": "2005-08-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNWEzM2Y0ZWEtODZkMC00N2M1LTljNDctMzMxYzE0NzUyZDliXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Enchanted",
+        "year": 2007,
+        "releaseDate": "2007-11-21",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjE4NDQ2Mjc0OF5BMl5BanBnXkFtZTcwNzQ2NDE1MQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Fighter",
+        "year": 2010,
+        "releaseDate": "2010-12-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTM0ODk3MjM1MV5BMl5BanBnXkFtZTcwNzc1MDIwNA@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "American Hustle",
+        "year": 2013,
+        "releaseDate": "2013-12-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "date": "2026-04-20",
+    "theme": "Robert De Niro Talks to a Mirror (or Himself)",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Taxi Driver",
+        "year": 1976,
+        "releaseDate": "1976-02-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZDNhMGYwM2UtMTdlZS00MGQ1LWI2YzAtODY5YWI1MjYyNzRmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The King of Comedy",
+        "year": 1982,
+        "releaseDate": "1982-12-18",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTQxNGUwNmUtMDJhYy00ZjM1LWFjZjQtYmI5ZGY4YTZmZWQyXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Analyze This",
+        "year": 1999,
+        "releaseDate": "1999-03-05",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZDJmZTNmMmQtYWM2MC00YzM5LWI5MGEtODRmZTgzNDAyN2FjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Joker",
+        "year": 2019,
+        "releaseDate": "2019-10-04",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "date": "2026-04-21",
+    "theme": "Winona Ryder Has a Gothic Problem",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Beetlejuice",
+        "year": 1988,
+        "releaseDate": "1988-03-30",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYjkwNzVlNDEtMTJlNy00OTdlLTljYWItM2RkZmZkYzY3YjM2XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Edward Scissorhands",
+        "year": 1990,
+        "releaseDate": "1990-12-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODJhODczYjUtYzdkMy00Yjc4LTllNWMtZTQ3MDZlYWZjYWEzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Bram Stoker's Dracula",
+        "year": 1992,
+        "releaseDate": "1992-11-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTYyYzBhZjgtOTM0Ni00NzJmLWIxNjctODZiNDExOTA2MTAwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Black Swan",
+        "year": 2010,
+        "releaseDate": "2010-12-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "date": "2026-04-22",
+    "theme": "Tilda Swinton Is Multiple People",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Orlando",
+        "year": 1992,
+        "releaseDate": "1992-12-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZThhODA0ZmQtM2UyMy00YWY0LTg4MGItZTJhZmI2NWJkMTM1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Adaptation.",
+        "year": 2002,
+        "releaseDate": "2002-12-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMmQ1MWMxZjEtNmNmYi00ZGFhLWExZDItODcwNzlmZjg0YzNlXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Suspiria",
+        "year": 2018,
+        "releaseDate": "2018-10-26",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjQ2MTIyNjM2MF5BMl5BanBnXkFtZTgwMDE3NDMyNjM@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Eternal Daughter",
+        "year": 2022,
+        "releaseDate": "2022-11-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BM2MzNDhhYzctOTExMS00NzQxLWIxMjEtM2NkODI0MjE0OTVlXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "date": "2026-04-23",
+    "theme": "Robin Williams Wears a Disguise",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The World According to Garp",
+        "year": 1982,
+        "releaseDate": "1982-07-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzA4MzYzYzItYzVmMy00Y2M5LWIwMmUtZTY2N2I2OWIwYzRkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Mrs. Doubtfire",
+        "year": 1993,
+        "releaseDate": "1993-11-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BY2E2MDc5ZGEtOTNlZS00Mjg4LThlNzUtMDY2Zjc4ZTViNWY0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Bicentennial Man",
+        "year": 1999,
+        "releaseDate": "1999-12-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzM1MDVlZDItN2ZiZS00MWY2LTk3YzgtOGY4ZDRhNTEyNzA4XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Night at the Museum",
+        "year": 2006,
+        "releaseDate": "2006-12-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNGMyYjYyZDAtNzRiZC00ZjRkLTkwYjktODkxODQzNTFiMTVmXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "date": "2026-04-24",
+    "theme": "Al Pacino Screams a Famous Line",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Scarface",
+        "year": 1983,
+        "releaseDate": "1983-12-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDUzYjY0NmUtMDM4OS00Y2Q5LWJiODYtNTk0ZTk0YjZhMTg1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Scent of a Woman",
+        "year": 1992,
+        "releaseDate": "1992-12-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzc5ODg2NzMtYTQ4MS00MWFiLWI5NWMtNWNkODNmZjE0ZGVjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Devil's Advocate",
+        "year": 1997,
+        "releaseDate": "1997-10-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNGIxZmU2ZjEtYjc3OC00Y2FiLWE2ZTQtZGI3NzE0YmRhOTMxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Any Given Sunday",
+        "year": 1999,
+        "releaseDate": "1999-12-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZDIyMGYxMWYtNmUyZC00N2M3LWI0ZGYtMTIwMTk3NmZiY2RkXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "date": "2026-04-25",
+    "theme": "Johnny Depp Wears Ridiculous Makeup",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Edward Scissorhands",
+        "year": 1990,
+        "releaseDate": "1990-12-07",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODJhODczYjUtYzdkMy00Yjc4LTllNWMtZTQ3MDZlYWZjYWEzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Charlie and the Chocolate Factory",
+        "year": 2005,
+        "releaseDate": "2005-07-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjcxMjg1Njg2NF5BMl5BanBnXkFtZTcwMjQ4NzMzMw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Alice in Wonderland",
+        "year": 2010,
+        "releaseDate": "2010-03-05",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYjgxMTQ3NjMtOTI1Yy00Yzg4LWJlNWQtMjFkNjVlYjU0OWIyXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Lone Ranger",
+        "year": 2013,
+        "releaseDate": "2013-07-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYjQ1YWE5NzktOWYyYS00MTBmLWE1NDUtMTU5Mzc2YWQyNzhjXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "date": "2026-04-26",
+    "theme": "Gary Oldman Disappears Into a Role",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Sid and Nancy",
+        "year": 1986,
+        "releaseDate": "1986-11-07",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGY1NTc0M2MtY2UxOS00OTllLTk1NjItZWIwOWE2OTUzYjdiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Bram Stoker's Dracula",
+        "year": 1992,
+        "releaseDate": "1992-11-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTYyYzBhZjgtOTM0Ni00NzJmLWIxNjctODZiNDExOTA2MTAwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Fifth Element",
+        "year": 1997,
+        "releaseDate": "1997-05-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODU4ZTE5MWYtNmY2MC00NDkyLTk0NDgtNTk5YjgzMzc4NmQwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Darkest Hour",
+        "year": 2017,
+        "releaseDate": "2017-11-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjIyNDkyMTgzMV5BMl5BanBnXkFtZTgwNTQwNjg2MzI@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "date": "2026-04-27",
+    "theme": "Helen Mirren Commands Authority",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Excalibur",
+        "year": 1981,
+        "releaseDate": "1981-04-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTI0ZTZlNGMtNjhmNi00OGFiLTkzYjEtZmZiODgxMzI3YTE0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Madness of King George",
+        "year": 1994,
+        "releaseDate": "1994-12-28",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOWYyMDcyZDUtMzQ0ZC00ZDllLWI1MTMtZjM0M2I5N2JhNDgzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Queen",
+        "year": 2006,
+        "releaseDate": "2006-09-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTQ3NTMxODg1Ml5BMl5BanBnXkFtZTcwMjEyMjczMQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Catherine the Great",
+        "year": 2019,
+        "releaseDate": "2019-10-21",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZmQyNjQwMTQtNGIwOS00MTY4LWE2M2UtMzcxZDgxYmUxYzIyXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "date": "2026-04-28",
+    "theme": "Sigourney Weaver Fights Something Not Human",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Alien",
+        "year": 1979,
+        "releaseDate": "1979-05-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Ghostbusters",
+        "year": 1984,
+        "releaseDate": "1984-06-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMGI0Yjg2ODAtNDYzNi00Njc2LTlkMmMtMmRmYWI5MDE4ZGRkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Aliens",
+        "year": 1986,
+        "releaseDate": "1986-07-18",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZjIyNGJhYzYtN2I1My00OTVhLWEyMzItZTVjNDMzOTVkYWViXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Avatar",
+        "year": 2009,
+        "releaseDate": "2009-12-18",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "date": "2026-04-29",
+    "theme": "Angelina Jolie Kicks Everyone's Ass",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Lara Croft: Tomb Raider",
+        "year": 2001,
+        "releaseDate": "2001-06-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjcxYzIyZWItZWRiOS00ODliLWI3ZTEtZTA4NTg4OGQwZDY1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Mr. & Mrs. Smith",
+        "year": 2005,
+        "releaseDate": "2005-06-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Wanted",
+        "year": 2008,
+        "releaseDate": "2008-06-27",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTQwNDM2MTMwMl5BMl5BanBnXkFtZTgwMjE4NjQxMTE@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Salt",
+        "year": 2010,
+        "releaseDate": "2010-07-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjIyODA2NDg4NV5BMl5BanBnXkFtZTcwMjg4NDAwMw@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "date": "2026-04-30",
+    "theme": "Bruce Willis Dies Hard (But Somehow Survives)",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Die Hard",
+        "year": 1988,
+        "releaseDate": "1988-07-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMGNlYmM1NmQtYWExMS00NmRjLTg5ZmEtMmYyYzJkMzljYWMxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Fifth Element",
+        "year": 1997,
+        "releaseDate": "1997-05-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODU4ZTE5MWYtNmY2MC00NDkyLTk0NDgtNTk5YjgzMzc4NmQwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Unbreakable",
+        "year": 2000,
+        "releaseDate": "2000-11-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZWNmMGYwMDQtNGIxMS00MzMzLTlhNmItYzllN2M2M2EwMTZmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Looper",
+        "year": 2012,
+        "releaseDate": "2012-09-28",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTg5NTA3NTg4NF5BMl5BanBnXkFtZTcwNTA0NDYzOA@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "date": "2026-05-01",
+    "theme": "Dwayne 'The Rock' Johnson vs. The Jungle",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Scorpion King",
+        "year": 2002,
+        "releaseDate": "2002-04-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjkxNTAwNTQ0M15BMl5BanBnXkFtZTYwMTQwMjM3._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Welcome to the Jungle",
+        "year": 2003,
+        "releaseDate": "2003-09-26",
+        "posterPath": null
+      },
+      {
+        "tmdbId": 3,
+        "title": "Journey 2: The Mysterious Island",
+        "year": 2012,
+        "releaseDate": "2012-02-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjA5MTE1MjQyNV5BMl5BanBnXkFtZTcwODI4NDMwNw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Jumanji: Welcome to the Jungle",
+        "year": 2017,
+        "releaseDate": "2017-12-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZjI5MzdmODctYjA4NS00ZmMxLWJlOWUtOGVhMjA0OGMxMWYzXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "date": "2026-05-02",
+    "theme": "Sean Bean Dies Memorably",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "GoldenEye",
+        "year": 1995,
+        "releaseDate": "1995-11-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGQxNmYyY2YtZGIyNy00ODgxLThhZWEtZGIyNjJhYzFlOTllXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": 2001,
+        "releaseDate": "2001-12-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Troy",
+        "year": 2004,
+        "releaseDate": "2004-05-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Martian",
+        "year": 2015,
+        "releaseDate": "2015-10-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "date": "2026-05-03",
+    "theme": "Hugh Jackman Sings His Heart Out",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Oklahoma!",
+        "year": 1999,
+        "releaseDate": "1999-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYmRiMmUwNzYtMWIzOC00MTA1LThlY2MtMDBhNTdmM2E3NGUwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Les Misérables",
+        "year": 2012,
+        "releaseDate": "2012-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BY2Q1YjIxZTAtZTU0YS00ZmE5LWEwODEtY2IyYWM2ZTJlOWE1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Greatest Showman",
+        "year": 2017,
+        "releaseDate": "2017-12-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Deadpool & Wolverine",
+        "year": 2024,
+        "releaseDate": "2024-07-26",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "date": "2026-05-04",
+    "theme": "Emma Stone Has an Existential Crisis",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Easy A",
+        "year": 2010,
+        "releaseDate": "2010-09-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "year": 2014,
+        "releaseDate": "2014-10-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "La La Land",
+        "year": 2016,
+        "releaseDate": "2016-12-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Poor Things",
+        "year": 2023,
+        "releaseDate": "2023-12-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYWU2MjRjZTYtMjVkMS00MTBjLWFiMTAtYmZlYTk1YjkyMWFkXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "date": "2026-05-05",
+    "theme": "Jake Gyllenhaal Trusts No One",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Donnie Darko",
+        "year": 2001,
+        "releaseDate": "2001-10-26",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMWE3NTYzZmEtM2U5MS00MDZhLTk2ZTQtZTgzNjg0ZGQ5ZjM0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Zodiac",
+        "year": 2007,
+        "releaseDate": "2007-03-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDFkMTRkZmQtM2I0NC00NjJjLWJlMDctNTNiZWYxYzhjZDZiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Prisoners",
+        "year": 2013,
+        "releaseDate": "2013-09-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Nightcrawler",
+        "year": 2014,
+        "releaseDate": "2014-10-31",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYjMwMmI5MWQtOTU4OS00OTAyLTg0OTYtNmQ5YzExZTQ3ZWJhXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "date": "2026-05-06",
+    "theme": "Frances McDormand Won't Let It Go",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Fargo",
+        "year": 1996,
+        "releaseDate": "1996-04-05",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjg4MWE0MjEtODFhNy00MjA5LTg5ODktMzgwNWFmZTAwNjBlXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Almost Famous",
+        "year": 2000,
+        "releaseDate": "2000-09-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGFmNDQzOTItOGZkNS00NjFkLWE4MjQtNmRjMjNlMjg3YzdiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Three Billboards Outside Ebbing, Missouri",
+        "year": 2017,
+        "releaseDate": "2017-11-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjI0ODcxNzM1N15BMl5BanBnXkFtZTgwMzIwMTEwNDI@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Nomadland",
+        "year": 2020,
+        "releaseDate": "2020-09-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGNkOWQ0ZjMtMTc4Ny00NDRhLTgyMjUtNzFmZDM0MTc3N2JjXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "date": "2026-05-07",
+    "theme": "Viola Davis Refuses to Be Silenced",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Doubt",
+        "year": 2008,
+        "releaseDate": "2008-12-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZWZmNDMyY2UtOWIwMC00MjE5LTkwNmUtYjRiMThkNjI0OGEwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Help",
+        "year": 2011,
+        "releaseDate": "2011-08-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Fences",
+        "year": 2016,
+        "releaseDate": "2016-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTg0Nzc1NjA0MV5BMl5BanBnXkFtZTgwNTcyNDQ0MDI@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Woman King",
+        "year": 2022,
+        "releaseDate": "2022-09-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzM4ODY0NzctZDIyNC00MzE4LWI3NDYtYjIyYTUyZWFmYzJkXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "date": "2026-05-08",
+    "theme": "Michelle Pfeiffer Gets Dangerously Seductive",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Fabulous Baker Boys",
+        "year": 1989,
+        "releaseDate": "1989-10-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZDFlYjBkOTMtM2I4Yi00ZmUyLTg0YjctY2RhZmI0NTk0ZmE0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Batman Returns",
+        "year": 1992,
+        "releaseDate": "1992-06-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZTliMDVkYTktZDdlMS00NTAwLWJhNzYtMWIwMDZjN2ViMGFiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Dangerous Minds",
+        "year": 1995,
+        "releaseDate": "1995-08-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODc5ZDI2ZDYtYjZiMy00MzZjLWEwNWUtNTljNDEwYWQ3YjQ5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Stardust",
+        "year": 2007,
+        "releaseDate": "2007-08-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "date": "2026-05-09",
+    "theme": "John Travolta Hits the Dance Floor",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Saturday Night Fever",
+        "year": 1977,
+        "releaseDate": "1977-12-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BM2UxZGU5ZDItZmQ0NS00NzNlLTgwMGMtOGJkMzQ5N2QwZjNhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Grease",
+        "year": 1978,
+        "releaseDate": "1978-06-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNGY0NzE0ZTctN2YzNC00M2IwLWI0OWYtMTAwZWU2NjZhMTQwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "releaseDate": "1994-10-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Hairspray",
+        "year": 2007,
+        "releaseDate": "2007-07-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzBiNjJhNmUtMjM0Yi00ZjZkLTliNzUtYWEyYmVkZTFhMmQzXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "date": "2026-05-10",
+    "theme": "Ryan Gosling Won't Say Much",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Lars and the Real Girl",
+        "year": 2007,
+        "releaseDate": "2007-10-12",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZThiOTA4N2UtNzJiYS00MDI0LWI3OWItYzYxYzU3M2YwM2M4XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Drive",
+        "year": 2011,
+        "releaseDate": "2011-09-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Only God Forgives",
+        "year": 2013,
+        "releaseDate": "2013-07-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzE5NzcxMTk5NF5BMl5BanBnXkFtZTcwNjE2MDg2OQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Blade Runner 2049",
+        "year": 2017,
+        "releaseDate": "2017-10-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "date": "2026-05-11",
+    "theme": "Christoph Waltz Steals Every Scene",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Inglourious Basterds",
+        "year": 2009,
+        "releaseDate": "2009-08-21",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Green Hornet",
+        "year": 2011,
+        "releaseDate": "2011-01-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTcwOTMwMDYyMl5BMl5BanBnXkFtZTcwMzAxMjMyNA@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Django Unchained",
+        "year": 2012,
+        "releaseDate": "2012-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "No Time to Die",
+        "year": 2021,
+        "releaseDate": "2021-10-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGZiOGZhZDQtZmRkNy00ZmUzLTliMGEtZGU0NjExOGMxZDVkXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "date": "2026-05-12",
+    "theme": "Tommy Lee Jones Hunts a Fugitive",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Under Siege",
+        "year": 1992,
+        "releaseDate": "1992-10-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOWQyMWIyY2YtOTU3Yi00OWFlLWE0NjQtMmQ1YzdkZDc4YWUwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Fugitive",
+        "year": 1993,
+        "releaseDate": "1993-08-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BM2RjMjEwODUtYTE4OC00MzhkLThjMjItZjYyZjk3YzA4YWUxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "U.S. Marshals",
+        "year": 1998,
+        "releaseDate": "1998-03-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZTdlYTU2OGYtZjljOS00ZjFhLTk5NjAtZDQwZmNkYzk4YWQ5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "No Country for Old Men",
+        "year": 2007,
+        "releaseDate": "2007-11-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "date": "2026-05-13",
+    "theme": "Jim Carrey's Face Won't Stay Still",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Ace Ventura: Pet Detective",
+        "year": 1994,
+        "releaseDate": "1994-02-04",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOWU1M2Q5MDgtOTkxZS00NjdmLWFlNWEtOGEyOTNlNGYyYTZlXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Mask",
+        "year": 1994,
+        "releaseDate": "1994-07-29",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNGNmNjI0ZmMtMzI5MC00ZjUyLWFlZDEtYjUyMGZlN2E3N2E2XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Liar Liar",
+        "year": 1997,
+        "releaseDate": "1997-03-21",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMGQ4MTk5YjctNGE5NC00ODk4LWIzOWItNzNhODc0N2JmYzMzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "How the Grinch Stole Christmas",
+        "year": 2000,
+        "releaseDate": "2000-11-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDAwMjFhYTEtNzYyMS00YmY2LTg3MGEtZTRkNWNiMDI4MDRkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 5,
+        "title": "A Series of Unfortunate Events",
+        "year": 2004,
+        "releaseDate": "2004-12-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjE3MDM4NTg0NV5BMl5BanBnXkFtZTcwNjI4MTczMw@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "date": "2026-05-14",
+    "theme": "Michael Keaton Has an Identity Crisis",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Beetlejuice",
+        "year": 1988,
+        "releaseDate": "1988-03-30",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYjkwNzVlNDEtMTJlNy00OTdlLTljYWItM2RkZmZkYzY3YjM2XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Multiplicity",
+        "year": 1996,
+        "releaseDate": "1996-07-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZmE0NzY5NjgtZGNjOS00NTk4LThiMjctYTE3MzYxY2FiMzMyXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Other Guys",
+        "year": 2010,
+        "releaseDate": "2010-08-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODU1OTY5ZTYtNWQ0MC00ZWE1LTkyYjEtZTI2ODM1ZGE2MjBkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "year": 2014,
+        "releaseDate": "2014-10-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "date": "2026-05-15",
+    "theme": "Edward Norton Fights Himself",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Primal Fear",
+        "year": 1996,
+        "releaseDate": "1996-04-03",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZTJlYjM5MTYtZWU3YS00ZDRhLTk1MWEtZGQyODc1ZDU2MWEwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Fight Club",
+        "year": 1999,
+        "releaseDate": "1999-10-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Incredible Hulk",
+        "year": 2008,
+        "releaseDate": "2008-06-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "year": 2014,
+        "releaseDate": "2014-10-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "date": "2026-05-16",
+    "theme": "Geoffrey Rush Steals the Show",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Shine",
+        "year": 1996,
+        "releaseDate": "1996-11-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODZlMjRmN2UtZmY1Yi00YjhjLTg4OTAtZmQxNWMwZTY5YjI4XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Shakespeare in Love",
+        "year": 1998,
+        "releaseDate": "1998-12-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYmM3MTllNzYtN2MzNS00NWQwLTk0NTEtNjY1MmMwYjNkNTE5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "year": 2003,
+        "releaseDate": "2003-07-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDhlMzEyNzItMTA5Mi00YWRhLThlNTktYTQyMTA0MDIyNDEyXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The King's Speech",
+        "year": 2010,
+        "releaseDate": "2010-12-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "date": "2026-05-17",
+    "theme": "Rachel McAdams Falls in Love Across Time",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Notebook",
+        "year": 2004,
+        "releaseDate": "2004-06-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZjE0ZjgzMzYtMTAxYi00NGMzLThmZDktNzFlMzA2MWRmYWQ0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Time Traveler's Wife",
+        "year": 2009,
+        "releaseDate": "2009-08-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOGU4M2JjNmEtYTVkOS00ZWY5LTllODQtNWExN2U1NzQwZGEwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Midnight in Paris",
+        "year": 2011,
+        "releaseDate": "2011-05-20",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "About Time",
+        "year": 2013,
+        "releaseDate": "2013-11-01",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "date": "2026-05-18",
+    "theme": "Judi Dench Has No Time for Fools",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "A Room with a View",
+        "year": 1986,
+        "releaseDate": "1986-03-07",
+        "posterPath": null
+      },
+      {
+        "tmdbId": 2,
+        "title": "Shakespeare in Love",
+        "year": 1998,
+        "releaseDate": "1998-12-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYmM3MTllNzYtN2MzNS00NWQwLTk0NTEtNjY1MmMwYjNkNTE5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Notes on a Scandal",
+        "year": 2006,
+        "releaseDate": "2006-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODdhZDJjNDgtZjAxZi00ZGE2LWJiYzYtZTJhMmRmYjgzMzY0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Philomena",
+        "year": 2013,
+        "releaseDate": "2013-11-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjA5ODgyNzcxMV5BMl5BanBnXkFtZTgwMzkzOTYzMDE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "date": "2026-05-19",
+    "theme": "Dustin Hoffman Pretends to Be Someone He's Not",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Tootsie",
+        "year": 1982,
+        "releaseDate": "1982-12-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzc1YjU5NzEtMmZjYi00NzE2LThjMmEtMzY1ZTg5ZjgyM2EzXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Hook",
+        "year": 1991,
+        "releaseDate": "1991-12-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BOTU0ZTU3MGUtOTQwNi00N2QzLWFmMDUtZDgxMGJlNGI5NDllXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Wag the Dog",
+        "year": 1997,
+        "releaseDate": "1997-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNmEwNzk5ZTYtNGUzOC00ZThjLTk3NGYtMDQ5MzNiYzQ0ZTNkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Meet the Fockers",
+        "year": 2004,
+        "releaseDate": "2004-12-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMGI0NDZhODctZWYwNC00ZGZhLTg2N2UtMzdiZjM0OTM4NTY0XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "date": "2026-05-20",
+    "theme": "Kate Winslet Survives a Disaster",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Titanic",
+        "year": 1997,
+        "releaseDate": "1997-12-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Contagion",
+        "year": 2011,
+        "releaseDate": "2011-09-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTY3MDk5MDc3OV5BMl5BanBnXkFtZTcwNzAyNTg0Ng@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The Mountain Between Us",
+        "year": 2017,
+        "releaseDate": "2017-10-06",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMDFhZWE0MDktNDgxNi00OWE2LTg4NTgtM2Q5NDRmNTBjMzMxXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Lee",
+        "year": 2023,
+        "releaseDate": "2023-09-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMDlhMDY0NTAtOTQwZi00ZjIxLTk2ZmYtZjU1Y2FiYWRhZDk3XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "date": "2026-05-21",
+    "theme": "Christina Ricci Goes Dark and Creepy",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Addams Family",
+        "year": 1991,
+        "releaseDate": "1991-11-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZWY0MzVlNGEtYzM1MC00OTI4LWE3ZTQtNWJjYzk2Y2MyNjVkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Sleepy Hollow",
+        "year": 1999,
+        "releaseDate": "1999-11-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYWIwMTIxZTQtNDZhNS00ZDZlLTg5MTEtOTNkMmNjOGUzMTA1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Monster",
+        "year": 2003,
+        "releaseDate": "2003-12-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTI4NzI5NzEwNl5BMl5BanBnXkFtZTcwNjc1NjQyMQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Yellowjackets",
+        "year": 2021,
+        "releaseDate": "2021-11-14",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMDAwMDNiNDAtZjM0Yi00OTEyLWFkMGUtMzIxOGU0NWYzYmM4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "date": "2026-05-22",
+    "theme": "Ben Kingsley Plays a Real Historical Figure",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Gandhi",
+        "year": 1982,
+        "releaseDate": "1982-12-08",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNTg3ODhlZTEtM2Q3MC00YzMxLWJjN2YtOWUyMDIyYTlhYzM3XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Schindler's List",
+        "year": 1993,
+        "releaseDate": "1993-12-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "House of Sand and Fog",
+        "year": 2003,
+        "releaseDate": "2003-12-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTIzMjQ5NzM2M15BMl5BanBnXkFtZTYwMzU2NDY3._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Shutter Island",
+        "year": 2010,
+        "releaseDate": "2010-02-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "date": "2026-05-23",
+    "theme": "Oscar Winners Set in Prison",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Bridge on the River Kwai",
+        "year": 1957,
+        "releaseDate": "1957-10-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzdkYmU2YmItNmZiYy00OWQyLTg0YWYtZmUxM2U3YTRiNTQ1XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "releaseDate": "1994-09-23",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Chicago",
+        "year": 2002,
+        "releaseDate": "2002-12-27",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNmJmZDEyNTctOTM1MS00NWEwLWFkMjctMjhhODEzMjU1MjA0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "The Grand Budapest Hotel",
+        "year": 2014,
+        "releaseDate": "2014-03-28",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "date": "2026-05-24",
+    "theme": "Ethan Hawke Questions Reality",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Gattaca",
+        "year": 1997,
+        "releaseDate": "1997-10-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZjQxNTc3YzQtZDA5ZC00MmM5LWE3NGYtMGE0Yjk3MDYwODVlXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Waking Life",
+        "year": 2001,
+        "releaseDate": "2001-10-19",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjkyYzhkZjgtODhiNi00Yjk3LWJkY2ItMTQ0NTlhMDljYjY5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Daybreakers",
+        "year": 2009,
+        "releaseDate": "2009-09-11",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNzg3NDYyMDU4Nl5BMl5BanBnXkFtZTcwODA5NzA5Mg@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Predestination",
+        "year": 2014,
+        "releaseDate": "2014-08-28",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BY2VhODM5OTUtZDJhMi00MTc5LThjNjYtZWY1M2NlNWU0N2NjXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "date": "2026-05-25",
+    "theme": "Colin Firth Has a Stiff Upper Lip",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The English Patient",
+        "year": 1996,
+        "releaseDate": "1996-11-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODg0NjdiN2UtZWY3MS00M2JmLTg1MDAtY2ZiNzNiMzAzYWFmXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Bridget Jones's Diary",
+        "year": 2001,
+        "releaseDate": "2001-04-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNTM1MTFiNDEtMGYzZC00MjM5LWEwMWMtN2VhNjg1MTEzOTg3XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "The King's Speech",
+        "year": 2010,
+        "releaseDate": "2010-12-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Kingsman: The Secret Service",
+        "year": 2014,
+        "releaseDate": "2014-12-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BODk1MTYwNTAtYmI5Zi00OWYyLWE0MzQtOWE4NDIxZmU2MjMwXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "date": "2026-05-26",
+    "theme": "Cillian Murphy Stares Into the Abyss",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "28 Days Later",
+        "year": 2002,
+        "releaseDate": "2002-11-01",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BM2I4NTI0ZGQtNGQ2ZC00ODIxLWI2N2QtMDBkNzI1NDhjYjE5XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Batman Begins",
+        "year": 2005,
+        "releaseDate": "2005-06-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzA2NDQzZDEtNDU5Ni00YTlkLTg2OWEtYmQwM2Y1YTBjMjFjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Inception",
+        "year": 2010,
+        "releaseDate": "2010-07-16",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Oppenheimer",
+        "year": 2023,
+        "releaseDate": "2023-07-21",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "date": "2026-05-27",
+    "theme": "Timothée Chalamet Gets Consumed by Something Bigger",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Interstellar",
+        "year": 2014,
+        "releaseDate": "2014-11-07",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Call Me by Your Name",
+        "year": 2017,
+        "releaseDate": "2017-11-24",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDk3NTEwNjc0MV5BMl5BanBnXkFtZTgwNzYxNTMwMzI@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Dune",
+        "year": 2021,
+        "releaseDate": "2021-10-22",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Wonka",
+        "year": 2023,
+        "releaseDate": "2023-12-15",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BM2Y1N2ZhNjctYjVhZC00MDg2LWFhNTItMzI3ZjAwZDhjYmFiXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "date": "2026-05-28",
+    "theme": "Robert Downey Jr. Reinvents Himself",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Chaplin",
+        "year": 1992,
+        "releaseDate": "1992-12-25",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BM2IyZmJiOTUtYTY4ZC00MDFiLWI4YTctYzAyOTVhNzJiZDJkXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Zodiac",
+        "year": 2007,
+        "releaseDate": "2007-03-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDFkMTRkZmQtM2I0NC00NjJjLWJlMDctNTNiZWYxYzhjZDZiXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Tropic Thunder",
+        "year": 2008,
+        "releaseDate": "2008-08-13",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Oppenheimer",
+        "year": 2023,
+        "releaseDate": "2023-07-21",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "date": "2026-05-29",
+    "theme": "Catherine Zeta-Jones Dazzles in a Man's World",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "The Mask of Zorro",
+        "year": 1998,
+        "releaseDate": "1998-07-17",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMzA2MDgyYzMtNjc4OC00YjU0LWEzMWEtOTRhMTViODY0Mjk0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "Entrapment",
+        "year": 1999,
+        "releaseDate": "1999-04-30",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZjliMDM0ZGQtMzA1Yy00MjZhLWI2NDgtODJhOWMyNTBlZDdhXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Chicago",
+        "year": 2002,
+        "releaseDate": "2002-12-27",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNmJmZDEyNTctOTM1MS00NWEwLWFkMjctMjhhODEzMjU1MjA0XkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Ocean's Twelve",
+        "year": 2004,
+        "releaseDate": "2004-12-10",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNjgxNjY3ODEtMTZhOC00NjgyLTg4YTAtZjA4ZDI2MDQ4OGJmXkEyXkFqcGc@._V1_SX300.jpg"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "date": "2026-05-30",
+    "theme": "Woody Harrelson Causes Chaos",
+    "movies": [
+      {
+        "tmdbId": 1,
+        "title": "Natural Born Killers",
+        "year": 1994,
+        "releaseDate": "1994-08-26",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BNTlmYjkxNzYtYWMwMC00NTNhLWExZjEtNmUwMzlmYWJhOGFjXkEyXkFqcGc@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 2,
+        "title": "No Country for Old Men",
+        "year": 2007,
+        "releaseDate": "2007-11-09",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 3,
+        "title": "Zombieland",
+        "year": 2009,
+        "releaseDate": "2009-10-02",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BMTU5MDg0NTQ1N15BMl5BanBnXkFtZTcwMjA4Mjg3Mg@@._V1_SX300.jpg"
+      },
+      {
+        "tmdbId": 4,
+        "title": "Venom: Let There Be Carnage",
+        "year": 2021,
+        "releaseDate": "2021-10-01",
+        "posterPath": "https://m.media-amazon.com/images/M/MV5BZGIxMTU1MjItM2FmMi00YmFiLTgwNDMtMTczYmVjYTBhNGZhXkEyXkFqcGc@._V1_SX300.jpg"
+      }
     ]
   }
 ]

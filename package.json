@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate-puzzles": "tsx --esm scripts/generate-puzzles.ts",
-    "enrich-puzzles": "tsx --esm scripts/enrich-puzzles.ts"
+    "generate-puzzles": "tsx scripts/generate-puzzles.ts",
+    "enrich-puzzles": "tsx scripts/enrich-puzzles.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
